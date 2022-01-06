@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.monstertrex.vanillaexpanded.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "VanillaExpandedMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "vanillaexpanded",
+  "version": "${version}",
+
+  "name": "Vanilla Expanded",
+  "description": "A mod adding a lot of vanilla enhancements to Minecraft",
+  "authors": [
+    "MonsterTrex"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/vanillaexpanded/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.monstertrex.vanillaexpanded.VanillaExpanded"
+    ]
+  },
+  "mixins": [
+    "vanillaexpanded.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
