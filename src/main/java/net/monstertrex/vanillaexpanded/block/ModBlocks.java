@@ -1,0 +1,285 @@
+package net.monstertrex.vanillaexpanded.block;
+
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.minecraft.block.Block;
+import net.minecraft.block.Material;
+import net.minecraft.block.PaneBlock;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
+import net.monstertrex.vanillaexpanded.VanillaExpanded;
+import net.monstertrex.vanillaexpanded.item.ModItemGroups;
+
+public class ModBlocks {
+
+    //------------------------------------------ Block List ------------------------------------------//
+
+    public static final Block CHARCOAL_BLOCK = registerBlock("charcoal_block",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(6).requiresTool()), ModItemGroups.VANILLAEXPANDED);
+
+        //--- Glass Blocks ---//
+    public static final Block CRACKED_GLASS = registerBlock("cracked_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_BLACK_STAINED_GLASS = registerBlock("cracked_black_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_BLUE_STAINED_GLASS = registerBlock("cracked_blue_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_BROWN_STAINED_GLASS = registerBlock("cracked_brown_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_CYAN_STAINED_GLASS = registerBlock("cracked_cyan_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_GREEN_STAINED_GLASS = registerBlock("cracked_green_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_LIGHT_BLUE_STAINED_GLASS = registerBlock("cracked_light_blue_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_LIGHT_GREY_STAINED_GLASS = registerBlock("cracked_light_grey_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_LIME_STAINED_GLASS = registerBlock("cracked_lime_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_MAGENTA_STAINED_GLASS = registerBlock("cracked_magenta_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_ORANGE_STAINED_GLASS = registerBlock("cracked_orange_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_PINK_STAINED_GLASS = registerBlock("cracked_pink_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_PURPLE_STAINED_GLASS = registerBlock("cracked_purple_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_RED_STAINED_GLASS = registerBlock("cracked_red_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_WHITE_STAINED_GLASS = registerBlock("cracked_white_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_YELLOW_STAINED_GLASS = registerBlock("cracked_yellow_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+
+    public static final Block FRAMED_GLASS = registerBlock("framed_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_BLACK_STAINED_GLASS = registerBlock("framed_black_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_BLUE_STAINED_GLASS = registerBlock("framed_blue_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_BROWN_STAINED_GLASS = registerBlock("framed_brown_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_CYAN_STAINED_GLASS = registerBlock("framed_cyan_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_GREEN_STAINED_GLASS = registerBlock("framed_green_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_LIGHT_BLUE_STAINED_GLASS = registerBlock("framed_light_blue_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_LIGHT_GREY_STAINED_GLASS = registerBlock("framed_light_grey_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_LIME_STAINED_GLASS = registerBlock("framed_lime_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_MAGENTA_STAINED_GLASS = registerBlock("framed_magenta_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_ORANGE_STAINED_GLASS = registerBlock("framed_orange_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_PINK_STAINED_GLASS = registerBlock("framed_pink_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_PURPLE_STAINED_GLASS = registerBlock("framed_purple_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_RED_STAINED_GLASS = registerBlock("framed_red_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_WHITE_STAINED_GLASS = registerBlock("framed_white_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_YELLOW_STAINED_GLASS = registerBlock("framed_yellow_stained_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+
+    public static final Block FROSTED_GLASS = registerBlock("frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block BLACK_FROSTED_GLASS = registerBlock("black_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block BLUE_FROSTED_GLASS = registerBlock("blue_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block BROWN_FROSTED_GLASS = registerBlock("brown_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CYAN_FROSTED_GLASS = registerBlock("cyan_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block GREEN_FROSTED_GLASS = registerBlock("green_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block LIGHT_BLUE_FROSTED_GLASS = registerBlock("light_blue_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block LIGHT_GREY_FROSTED_GLASS = registerBlock("light_grey_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block LIME_FROSTED_GLASS = registerBlock("lime_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block MAGENTA_FROSTED_GLASS = registerBlock("magenta_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block ORANGE_FROSTED_GLASS = registerBlock("orange_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block PINK_FROSTED_GLASS = registerBlock("pink_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block PURPLE_FROSTED_GLASS = registerBlock("purple_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block RED_FROSTED_GLASS = registerBlock("red_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block WHITE_FROSTED_GLASS = registerBlock("white_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block YELLOW_FROSTED_GLASS = registerBlock("yellow_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+
+    public static final Block FRAMED_FROSTED_GLASS = registerBlock("framed_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_BLACK_FROSTED_GLASS = registerBlock("framed_black_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_BLUE_FROSTED_GLASS = registerBlock("framed_blue_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_BROWN_FROSTED_GLASS = registerBlock("framed_brown_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_CYAN_FROSTED_GLASS = registerBlock("framed_cyan_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_GREEN_FROSTED_GLASS = registerBlock("framed_green_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_LIGHT_BLUE_FROSTED_GLASS = registerBlock("framed_light_blue_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_LIGHT_GREY_FROSTED_GLASS = registerBlock("framed_light_grey_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_LIME_FROSTED_GLASS = registerBlock("framed_lime_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_MAGENTA_FROSTED_GLASS = registerBlock("framed_magenta_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_ORANGE_FROSTED_GLASS = registerBlock("framed_orange_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_PINK_FROSTED_GLASS = registerBlock("framed_pink_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_PURPLE_FROSTED_GLASS = registerBlock("framed_purple_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_RED_FROSTED_GLASS = registerBlock("framed_red_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_WHITE_FROSTED_GLASS = registerBlock("framed_white_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block FRAMED_YELLOW_FROSTED_GLASS = registerBlock("framed_yellow_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.5)), ModItemGroups.VANILLAEXPANDED);
+
+
+    public static final Block CRACKED_FROSTED_GLASS = registerBlock("cracked_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_BLACK_FROSTED_GLASS = registerBlock("cracked_black_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_BLUE_FROSTED_GLASS = registerBlock("cracked_blue_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_BROWN_FROSTED_GLASS = registerBlock("cracked_brown_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_CYAN_FROSTED_GLASS = registerBlock("cracked_cyan_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_GREEN_FROSTED_GLASS = registerBlock("cracked_green_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_LIGHT_BLUE_FROSTED_GLASS = registerBlock("cracked_light_blue_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_LIGHT_GREY_FROSTED_GLASS = registerBlock("cracked_light_grey_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_LIME_FROSTED_GLASS = registerBlock("cracked_lime_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_MAGENTA_FROSTED_GLASS = registerBlock("cracked_magenta_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_ORANGE_FROSTED_GLASS = registerBlock("cracked_orange_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_PINK_FROSTED_GLASS = registerBlock("cracked_pink_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_PURPLE_FROSTED_GLASS = registerBlock("cracked_purple_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_RED_FROSTED_GLASS = registerBlock("cracked_red_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_WHITE_FROSTED_GLASS = registerBlock("cracked_white_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block CRACKED_YELLOW_FROSTED_GLASS = registerBlock("cracked_yellow_frosted_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength((float) 0.3)), ModItemGroups.VANILLAEXPANDED);
+
+
+
+    //------------------------------------ Registering Block List ------------------------------------//
+
+    private static Block registerBlock(String name, Block block, ItemGroup group) {
+        registerBlockItem(name, block, group);
+        return Registry.register(Registry.BLOCK, new Identifier(VanillaExpanded.MOD_ID, name), block);
+    }
+
+    private static Item registerBlockItem(String name, Block block, ItemGroup group) {
+        return Registry.register(Registry.ITEM, new Identifier(VanillaExpanded.MOD_ID, name),
+                new BlockItem(block, new FabricItemSettings().group(group)));
+    }
+
+    public static void registerModBlocks(){
+        System.out.println("Registering ModBlocks for " + VanillaExpanded.MOD_ID);
+    }
+}

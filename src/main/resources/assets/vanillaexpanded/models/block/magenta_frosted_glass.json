@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "vanillaexpanded:block/magenta_frosted_glass"
+  }
+}
