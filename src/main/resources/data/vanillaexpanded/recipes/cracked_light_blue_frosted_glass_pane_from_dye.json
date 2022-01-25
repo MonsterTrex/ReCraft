@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xyx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "vanillaexpanded:cracked_frosted_glass_pane"
+    },
+    "y": {
+      "item": "minecraft:light_blue_dye"
+    }
+  },
+  "result": {
+    "item": "vanillaexpanded:cracked_light_blue_frosted_glass_pane",
+    "count": 8
+  }
+}

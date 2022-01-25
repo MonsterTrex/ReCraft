@@ -3,7 +3,6 @@ package net.monstertrex.vanillaexpanded;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.RenderLayer;
-import net.minecraft.client.render.RenderLayers;
 import net.monstertrex.vanillaexpanded.block.ModBlocks;
 
 public class VanillaExpandedClient implements ClientModInitializer {

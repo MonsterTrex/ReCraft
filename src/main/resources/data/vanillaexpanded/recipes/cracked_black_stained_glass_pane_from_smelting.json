@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:black_stained_glass_pane"
+  },
+  "result": "vanillaexpanded:cracked_black_stained_glass_pane",
+  "experience": 0.05,
+  "cookingtime": 100
+}

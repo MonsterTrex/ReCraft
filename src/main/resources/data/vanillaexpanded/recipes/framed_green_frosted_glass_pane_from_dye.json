@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xyx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "vanillaexpanded:framed_frosted_glass_pane"
+    },
+    "y": {
+      "item": "minecraft:green_dye"
+    }
+  },
+  "result": {
+    "item": "vanillaexpanded:framed_green_frosted_glass_pane",
+    "count": 8
+  }
+}

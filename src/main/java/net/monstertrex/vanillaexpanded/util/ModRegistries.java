@@ -3,7 +3,6 @@ package net.monstertrex.vanillaexpanded.util;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.monstertrex.vanillaexpanded.VanillaExpanded;
 import net.monstertrex.vanillaexpanded.block.ModBlocks;
-import net.monstertrex.vanillaexpanded.item.ModItems;
 
 public class ModRegistries {
     public static void registerModStuffs(){
