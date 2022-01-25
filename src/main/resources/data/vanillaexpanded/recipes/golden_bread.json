@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xyx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:gold_nugget"
+    },
+    "y": {
+      "item": "minecraft:bread"
+    }
+  },
+  "result": {
+    "item": "vanillaexpanded:golden_bread",
+    "count": 1
+  }
+}

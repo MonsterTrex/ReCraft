@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx",
+    "xx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:rotten_flesh"
+    }
+  },
+  "result": {
+    "item": "vanillaexpanded:stitched_rotten_flesh",
+    "count": 1
+  }
+}

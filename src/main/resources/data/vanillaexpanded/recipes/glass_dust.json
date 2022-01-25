@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "vanillaexpanded:glass_shard"
+    }
+  ],
+  "result": {
+    "item": "vanillaexpanded:glass_dust",
+    "count": 1
+  }
+}

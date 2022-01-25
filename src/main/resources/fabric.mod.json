@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.monstertrex.vanillaexpanded.VanillaExpanded"
+    ],
+    "client": [
+      "net.monstertrex.vanillaexpanded.VanillaExpandedClient"
     ]
   },
   "mixins": [

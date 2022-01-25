@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_glass_pane_noside_alt",
+  "textures": {
+    "pane": "vanillaexpanded:block/black_frosted_glass"
+  }
+}

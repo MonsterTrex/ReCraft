@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx",
+    "xx"
+  ],
+  "key": {
+    "x": {
+      "item": "vanillaexpanded:glass_dust"
+    }
+  },
+  "result": {
+    "item": "vanillaexpanded:frosted_glass",
+    "count": 1
+  }
+}
