@@ -18,7 +18,7 @@ public class ModBlocks {
     //------------------------------------------ Block List ------------------------------------------//
 
     public static final Block CHARCOAL_BLOCK = registerBlock("charcoal_block", new Block(FabricBlockSettings
-            .of(Material.STONE).strength(6,6).requiresTool().sounds(BlockSoundGroup.STONE)), ModItemGroups.VANILLAEXPANDED);
+            .of(Material.STONE).strength(5,6).requiresTool().sounds(BlockSoundGroup.STONE)), ModItemGroups.VANILLAEXPANDED);
 
         //--- Glass Blocks ---//
     public static final Block CRACKED_GLASS = registerBlock("cracked_glass", new GlassBlock(FabricBlockSettings
@@ -593,6 +593,19 @@ public class ModBlocks {
                     .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.VANILLAEXPANDED);
 
 
+
+    //--- Rose Gold Blocks ---//
+    public static final Block ROSE_GOLD_BLOCK = registerBlock("rose_gold_block", new Block(FabricBlockSettings
+            .of(Material.METAL).strength(5,6).requiresTool().sounds(BlockSoundGroup.METAL)), ModItemGroups.VANILLAEXPANDED);
+
+
+
+    //--- Steel Blocks ---//
+    public static final Block STEEL_BLOCK = registerBlock("steel_block", new Block(FabricBlockSettings
+            .of(Material.METAL).strength(5,6).requiresTool().sounds(BlockSoundGroup.METAL)), ModItemGroups.VANILLAEXPANDED);
+
+    public static final Block NETHER_STEEL_ORE = registerBlock("nether_steel_ore", new Block(FabricBlockSettings
+            .of(Material.STONE).strength(3,3).requiresTool().sounds(BlockSoundGroup.NETHER_GOLD_ORE)), ModItemGroups.VANILLAEXPANDED);
 
 
 

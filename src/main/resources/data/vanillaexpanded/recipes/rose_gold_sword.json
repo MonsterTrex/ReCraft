@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x",
+    "x",
+    "y"
+  ],
+  "key": {
+    "x": {
+      "item": "vanillaexpanded:rose_gold_ingot"
+    },
+    "y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "vanillaexpanded:rose_gold_sword",
+    "count": 1
+  }
+}

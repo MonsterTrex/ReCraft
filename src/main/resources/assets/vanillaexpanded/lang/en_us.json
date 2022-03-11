@@ -191,6 +191,7 @@
   "block.vanillaexpanded.yellow_glowglass": "Yellow Glowglass",
 
 
+
   "item.vanillaexpanded.stitched_rotten_flesh": "Stitched Rotten Flesh",
   "item.vanillaexpanded.glass_shard": "Glass Shard",
   "item.vanillaexpanded.glass_dust": "Glass Dust",
@@ -209,6 +210,57 @@
   "item.vanillaexpanded.golden_glow_berries": "Golden Glow Berries",
   "item.vanillaexpanded.golden_pumpkin_pie": "Golden Pumpkin Pie",
   "item.vanillaexpanded.golden_sweet_berries": "Golden Sweet Berries",
+
+
+
+  "item.vanillaexpanded.copper_nugget": "Copper Nugget",
+  "item.vanillaexpanded.copper_pickaxe": "Copper Pickaxe",
+  "item.vanillaexpanded.copper_axe": "Copper Axe",
+  "item.vanillaexpanded.copper_shovel": "Copper Shovel",
+  "item.vanillaexpanded.copper_hoe": "Copper Hoe",
+  "item.vanillaexpanded.copper_sword": "Copper Sword",
+  "item.vanillaexpanded.copper_helmet": "Copper Helmet",
+  "item.vanillaexpanded.copper_chestplate": "Copper Chestplate",
+  "item.vanillaexpanded.copper_leggings": "Copper Leggings",
+  "item.vanillaexpanded.copper_boots": "Copper Boots",
+  "item.vanillaexpanded.copper_horse_armor": "Copper Horse Armor",
+
+
+
+  "item.vanillaexpanded.copper_gold_mixed_ingot": "Copper Gold Mixed Ingot",
+  "item.vanillaexpanded.mixed_raw_copper_gold": "Mixed Raw Copper Gold",
+  "item.vanillaexpanded.rose_gold_ingot": "Rose Gold Ingot",
+  "item.vanillaexpanded.rose_gold_nugget": "Rose Gold Nugget",
+  "item.vanillaexpanded.rose_gold_pickaxe": "Rose Gold Pickaxe",
+  "item.vanillaexpanded.rose_gold_axe": "Rose Gold Axe",
+  "item.vanillaexpanded.rose_gold_shovel": "Rose Gold Shovel",
+  "item.vanillaexpanded.rose_gold_hoe": "Rose Gold Hoe",
+  "item.vanillaexpanded.rose_gold_sword": "Rose Gold Sword",
+  "item.vanillaexpanded.rose_gold_helmet": "Rose Gold Helmet",
+  "item.vanillaexpanded.rose_gold_chestplate": "Rose Gold Chestplate",
+  "item.vanillaexpanded.rose_gold_leggings": "Rose Gold Leggings",
+  "item.vanillaexpanded.rose_gold_boots": "Rose Gold Boots",
+  "item.vanillaexpanded.rose_gold_horse_armor": "Rose Gold Horse Armor",
+
+  "block.vanillaexpanded.rose_gold_block": "Rose Gold Block",
+
+
+
+  "item.vanillaexpanded.steel_ingot": "Steel Ingot",
+  "item.vanillaexpanded.steel_nugget": "Steel Nugget",
+  "item.vanillaexpanded.steel_pickaxe": "Steel Pickaxe",
+  "item.vanillaexpanded.steel_axe": "Steel Axe",
+  "item.vanillaexpanded.steel_shovel": "Steel Shovel",
+  "item.vanillaexpanded.steel_hoe": "Steel Hoe",
+  "item.vanillaexpanded.steel_sword": "Steel Sword",
+  "item.vanillaexpanded.steel_helmet": "Steel Helmet",
+  "item.vanillaexpanded.steel_chestplate": "Steel Chestplate",
+  "item.vanillaexpanded.steel_leggings": "Steel Leggings",
+  "item.vanillaexpanded.steel_boots": "Steel Boots",
+  "item.vanillaexpanded.steel_horse_armor": "Steel Horse Armor",
+
+  "block.vanillaexpanded.steel_block": "Steel Block",
+  "block.vanillaexpanded.nether_steel_ore": "Nether Steel Ore",
 
 
   "itemGroup.vanillaexpanded.vanillaexpanded": "Vanilla Expanded"

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "vanillaexpanded",
-  "version": "${version}",
+  "version": "0.2",
 
   "name": "Vanilla Expanded",
   "description": "A mod adding a lot of vanilla enhancements to Minecraft",
@@ -30,7 +30,7 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.11.3",
+    "fabricloader": ">=0.13.3",
     "fabric": "*",
     "minecraft": "1.18.x",
     "java": ">=17"

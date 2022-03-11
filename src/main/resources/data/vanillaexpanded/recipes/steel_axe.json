@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx",
+    "xy",
+    " y"
+  ],
+  "key": {
+    "x": {
+      "item": "vanillaexpanded:steel_ingot"
+    },
+    "y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "vanillaexpanded:steel_axe",
+    "count": 1
+  }
+}

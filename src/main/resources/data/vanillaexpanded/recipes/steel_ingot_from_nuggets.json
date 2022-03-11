@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "vanillaexpanded:steel_nugget"
+    }
+  },
+  "result": {
+    "item": "vanillaexpanded:steel_ingot",
+    "count": 1
+  }
+}

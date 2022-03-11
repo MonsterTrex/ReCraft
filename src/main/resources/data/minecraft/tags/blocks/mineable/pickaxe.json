@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "vanillaexpanded:charcoal_block"
+    "vanillaexpanded:charcoal_block",
+    "vanillaexpanded:rose_gold_block",
+    "vanillaexpanded:steel_block",
+    "vanillaexpanded:nether_steel_ore"
   ]
 }

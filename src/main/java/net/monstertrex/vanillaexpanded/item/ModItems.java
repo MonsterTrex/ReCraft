@@ -1,10 +1,14 @@
 package net.monstertrex.vanillaexpanded.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.ArmorItem;
+import net.minecraft.item.HorseArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.monstertrex.vanillaexpanded.VanillaExpanded;
+import net.monstertrex.vanillaexpanded.item.custom.*;
 
 public class ModItems{
 
@@ -69,6 +73,133 @@ public class ModItems{
 
     public static final Item GOLDEN_SWEET_BERRIES = registerItem("golden_sweet_berries",
             new Item(new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED).food(ModFoodComponents.GOLDEN_SWEET_BERRIES)));
+
+
+
+        //--- Copper Items ---//
+    public static final Item COPPER_NUGGET = registerItem("copper_nugget",
+            new Item(new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+
+    public static final Item COPPER_PICKAXE = registerItem("copper_pickaxe",
+            new ModPickaxeItem(ModToolMaterial.COPPER, 2, -2.8f,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+    public static final Item COPPER_AXE = registerItem("copper_axe",
+            new ModAxeItem(ModToolMaterial.COPPER, 7f, -3.1f,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+    public static final Item COPPER_SHOVEL = registerItem("copper_shovel",
+            new ModShovelItem(ModToolMaterial.COPPER, 2.5f, -3f,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+    public static final Item COPPER_HOE = registerItem("copper_hoe",
+            new ModHoeItem(ModToolMaterial.COPPER, 0, -1f,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+    public static final Item COPPER_SWORD = registerItem("copper_sword",
+            new ModSwordItem(ModToolMaterial.COPPER, 3, -2.4f,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+
+    public static final Item COPPER_HELMET = registerItem("copper_helmet",
+            new ArmorItem(ModArmorMaterials.COPPER, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+    public static final Item COPPER_CHESTPLATE = registerItem("copper_chestplate",
+            new ArmorItem(ModArmorMaterials.COPPER, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+    public static final Item COPPER_LEGGINGS = registerItem("copper_leggings",
+            new ArmorItem(ModArmorMaterials.COPPER, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+    public static final Item COPPER_BOOTS = registerItem("copper_boots",
+            new ArmorItem(ModArmorMaterials.COPPER, EquipmentSlot.FEET,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+
+    public static final Item COPPER_HORSE_ARMOR = registerItem("copper_horse_armor",
+            new HorseArmorItem(5, "copper",
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+
+
+
+        //--- Rose Gold Items ---//
+    public static final Item MIXED_RAW_COPPER_GOLD = registerItem("mixed_raw_copper_gold",
+            new Item(new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+
+    public static final Item COPPER_GOLD_MIXED_INGOT = registerItem("copper_gold_mixed_ingot",
+            new Item(new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+
+    public static final Item ROSE_GOLD_INGOT = registerItem("rose_gold_ingot",
+            new Item(new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+    public static final Item ROSE_GOLD_NUGGET = registerItem("rose_gold_nugget",
+            new Item(new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+
+    public static final Item ROSE_GOLD_PICKAXE = registerItem("rose_gold_pickaxe",
+            new ModPickaxeItem(ModToolMaterial.ROSE_GOLD, 2, -2.8f,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+    public static final Item ROSE_GOLD_AXE = registerItem("rose_gold_axe",
+            new ModAxeItem(ModToolMaterial.ROSE_GOLD, 7f, -3,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+    public static final Item ROSE_GOLD_SHOVEL = registerItem("rose_gold_shovel",
+            new ModShovelItem(ModToolMaterial.ROSE_GOLD, 2.5f, -3f,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+    public static final Item ROSE_GOLD_HOE = registerItem("rose_gold_hoe",
+            new ModHoeItem(ModToolMaterial.ROSE_GOLD,  0, -2f,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+    public static final Item ROSE_GOLD_SWORD = registerItem("rose_gold_sword",
+            new ModSwordItem(ModToolMaterial.ROSE_GOLD, 4, -2.4f,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+
+    public static final Item ROSE_GOLD_HELMET = registerItem("rose_gold_helmet",
+            new ArmorItem(ModArmorMaterials.ROSE_GOLD, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+    public static final Item ROSE_GOLD_CHESTPLATE = registerItem("rose_gold_chestplate",
+            new ArmorItem(ModArmorMaterials.ROSE_GOLD, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+    public static final Item ROSE_GOLD_LEGGINGS = registerItem("rose_gold_leggings",
+            new ArmorItem(ModArmorMaterials.ROSE_GOLD, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+    public static final Item ROSE_GOLD_BOOTS = registerItem("rose_gold_boots",
+            new ArmorItem(ModArmorMaterials.ROSE_GOLD, EquipmentSlot.FEET,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+
+    public static final Item ROSE_GOLD_HORSE_ARMOR = registerItem("rose_gold_horse_armor",
+            new HorseArmorItem(8, "rose_gold",
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+
+
+
+        //--- Steel Items ---//
+    public static final Item STEEL_INGOT = registerItem("steel_ingot",
+            new Item(new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+    public static final Item STEEL_NUGGET = registerItem("steel_nugget",
+            new Item(new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+
+    public static final Item STEEL_PICKAXE = registerItem("steel_pickaxe",
+            new ModPickaxeItem(ModToolMaterial.STEEL, 3, -2.8f,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+    public static final Item STEEL_AXE = registerItem("steel_axe",
+            new ModAxeItem(ModToolMaterial.STEEL, 8f, -3.1f,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+    public static final Item STEEL_SHOVEL = registerItem("steel_shovel",
+            new ModShovelItem(ModToolMaterial.STEEL, 4f, -3f,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+    public static final Item STEEL_HOE = registerItem("steel_hoe",
+            new ModHoeItem(ModToolMaterial.STEEL, 0, -1f,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+    public static final Item STEEL_SWORD = registerItem("steel_sword",
+            new ModSwordItem(ModToolMaterial.STEEL, 5, -2.4f,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+
+    public static final Item STEEL_HELMET = registerItem("steel_helmet",
+            new ArmorItem(ModArmorMaterials.STEEL, EquipmentSlot.HEAD,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+    public static final Item STEEL_CHESTPLATE = registerItem("steel_chestplate",
+            new ArmorItem(ModArmorMaterials.STEEL, EquipmentSlot.CHEST,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+    public static final Item STEEL_LEGGINGS = registerItem("steel_leggings",
+            new ArmorItem(ModArmorMaterials.STEEL, EquipmentSlot.LEGS,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+    public static final Item STEEL_BOOTS = registerItem("steel_boots",
+            new ArmorItem(ModArmorMaterials.STEEL, EquipmentSlot.FEET,
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
+
+    public static final Item STEEL_HORSE_ARMOR = registerItem("steel_horse_armor",
+            new HorseArmorItem(7, "steel",
+                    new FabricItemSettings().group(ModItemGroups.VANILLAEXPANDED)));
 
 
 

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "x x",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "vanillaexpanded:rose_gold_ingot"
+    }
+  },
+  "result": {
+    "item": "vanillaexpanded:rose_gold_chestplate",
+    "count": 1
+  }
+}
