@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "vanillaexpanded:rose_gold_shovel",
-    "vanillaexpanded:steel_shovel"
+    "recraft:rose_gold_shovel",
+    "recraft:steel_shovel"
   ]
 }

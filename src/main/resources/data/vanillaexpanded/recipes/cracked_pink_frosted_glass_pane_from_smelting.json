@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "vanillaexpanded:pink_frosted_glass_pane"
-  },
-  "result": "vanillaexpanded:cracked_pink_frosted_glass_pane",
-  "experience": 0.05,
-  "cookingtime": 100
-}

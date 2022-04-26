@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "vanillaexpanded:rose_gold_sword",
-    "vanillaexpanded:steel_sword"
+    "recraft:rose_gold_sword",
+    "recraft:steel_sword"
   ]
 }

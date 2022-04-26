@@ -57,7 +57,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "vanillaexpanded:glass_shard"
+              "name": "recraft:glass_shard"
             }
           ]
         }

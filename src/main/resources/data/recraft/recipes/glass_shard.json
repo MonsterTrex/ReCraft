@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "recraft:glass_dust"
+    }
+  ],
+  "result": {
+    "item": "recraft:glass_shard",
+    "count": 1
+  }
+}

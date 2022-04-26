@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "vanillaexpanded:rose_gold_hoe",
-    "vanillaexpanded:steel_hoe"
+    "recraft:rose_gold_hoe",
+    "recraft:steel_hoe"
   ]
 }

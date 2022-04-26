@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx",
+    " y "
+  ],
+  "key": {
+    "x": {
+      "item": "recraft:golden_beetroot"
+    },
+    "y": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "recraft:golden_beetroot_soup",
+    "count": 1
+  }
+}

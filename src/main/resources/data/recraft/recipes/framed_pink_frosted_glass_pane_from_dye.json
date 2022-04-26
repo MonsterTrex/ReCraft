@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xyx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "recraft:framed_frosted_glass_pane"
+    },
+    "y": {
+      "item": "minecraft:pink_dye"
+    }
+  },
+  "result": {
+    "item": "recraft:framed_pink_frosted_glass_pane",
+    "count": 8
+  }
+}

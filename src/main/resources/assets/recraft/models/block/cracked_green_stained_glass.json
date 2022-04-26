@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "recraft:block/cracked_green_stained_glass"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "recraft:block/cracked_gray_stained_glass"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "recraft:orange_frosted_glass_pane"
+  },
+  "result": "recraft:cracked_orange_frosted_glass_pane",
+  "experience": 0.05,
+  "cookingtime": 100
+}

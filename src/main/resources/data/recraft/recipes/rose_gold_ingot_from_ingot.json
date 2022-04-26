@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "recraft:copper_gold_mixed_ingot"
+  },
+  "result": "recraft:rose_gold_ingot",
+  "experience": 0.1,
+  "cookingtime": 100
+}

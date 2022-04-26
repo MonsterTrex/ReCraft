@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "vanillaexpanded:rose_gold_pickaxe",
-    "vanillaexpanded:steel_pickaxe"
+    "recraft:rose_gold_pickaxe",
+    "recraft:steel_pickaxe"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "vanillaexpanded:rose_gold_axe",
-    "vanillaexpanded:steel_axe"
+    "recraft:rose_gold_axe",
+    "recraft:steel_axe"
   ]
 }

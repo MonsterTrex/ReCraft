@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "recraft:framed_lime_stained_glass"
+    }
+  },
+  "result": {
+    "item": "recraft:framed_lime_stained_glass_pane",
+    "count": 16
+  }
+}

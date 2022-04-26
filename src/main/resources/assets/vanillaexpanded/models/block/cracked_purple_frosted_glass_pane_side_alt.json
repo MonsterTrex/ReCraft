@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/template_glass_pane_side_alt",
-  "textures": {
-    "pane": "vanillaexpanded:block/cracked_purple_frosted_glass",
-    "edge": "vanillaexpanded:block/cracked_purple_frosted_glass_pane_top"
-  }
-}

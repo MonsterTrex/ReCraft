@@ -1,12 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.monstertrex.vanillaexpanded.mixin",
+  "package": "net.monstertrex.recraft.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],
   "client": [
-    "VanillaExpandedMixin"
+    "RecraftMixin"
   ],
   "injectors": {
     "defaultRequire": 1

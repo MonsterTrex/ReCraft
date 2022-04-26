@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "recraft:cracked_blue_frosted_glass"
+    }
+  },
+  "result": {
+    "item": "recraft:cracked_blue_frosted_glass_pane",
+    "count": 16
+  }
+}

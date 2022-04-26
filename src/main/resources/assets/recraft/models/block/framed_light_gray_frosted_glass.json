@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "recraft:block/framed_light_gray_frosted_glass"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xyx",
+    "yzy",
+    "xyx"
+  ],
+  "key": {
+    "x": {
+      "item": "recraft:glass_dust"
+    },
+    "y": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "z": {
+      "item": "minecraft:light_blue_dye"
+    }
+  },
+  "result": {
+    "item": "recraft:light_blue_glowglass",
+    "count": 1
+  }
+}

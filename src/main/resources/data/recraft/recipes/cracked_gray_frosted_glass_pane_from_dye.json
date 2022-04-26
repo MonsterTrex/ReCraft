@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xyx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "recraft:cracked_frosted_glass_pane"
+    },
+    "y": {
+      "item": "minecraft:gray_dye"
+    }
+  },
+  "result": {
+    "item": "recraft:cracked_gray_frosted_glass_pane",
+    "count": 8
+  }
+}

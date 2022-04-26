@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xyx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "recraft:cracked_stained_glass_pane"
+    },
+    "y": {
+      "item": "minecraft:purple_dye"
+    }
+  },
+  "result": {
+    "item": "recraft:cracked_purple_stained_glass_pane",
+    "count": 8
+  }
+}

@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "vanillaexpanded:charcoal_block",
-    "vanillaexpanded:rose_gold_block",
-    "vanillaexpanded:steel_block",
-    "vanillaexpanded:nether_steel_ore"
+    "recraft:charcoal_block",
+    "recraft:rose_gold_block",
+    "recraft:steel_block",
+    "recraft:nether_steel_ore"
   ]
 }

@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "vanillaexpanded:block/yellow_frosted_glass"
-  }
-}

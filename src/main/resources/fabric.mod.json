@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "vanillaexpanded",
+  "id": "recraft",
   "version": "0.2",
 
   "name": "Vanilla Expanded",
@@ -14,25 +14,25 @@
   },
 
   "license": "MIT",
-  "icon": "assets/vanillaexpanded/icon.png",
+  "icon": "assets/recraft/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.monstertrex.vanillaexpanded.VanillaExpanded"
+      "net.monstertrex.recraft.Recraft"
     ],
     "client": [
-      "net.monstertrex.vanillaexpanded.VanillaExpandedClient"
+      "net.monstertrex.recraft.RecraftClient"
     ]
   },
   "mixins": [
-    "vanillaexpanded.mixins.json"
+    "recraft.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.13.3",
     "fabric": "*",
-    "minecraft": "1.18.x",
+    "minecraft": "1.18.2",
     "java": ">=17"
   },
   "suggests": {

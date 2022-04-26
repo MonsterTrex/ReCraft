@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "x x"
+  ],
+  "key": {
+    "x": {
+      "item": "recraft:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "recraft:steel_helmet",
+    "count": 1
+  }
+}
