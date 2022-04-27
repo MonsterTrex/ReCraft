@@ -3,17 +3,17 @@
   "id": "recraft",
   "version": "0.2",
 
-  "name": "Vanilla Expanded",
+  "name": "ReCraft",
   "description": "A mod adding a lot of vanilla enhancements to Minecraft",
   "authors": [
     "MonsterTrex"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/MonsterTrex/ReCraft"
   },
 
-  "license": "MIT",
+  "license": "lgpl-3",
   "icon": "assets/recraft/icon.png",
 
   "environment": "*",

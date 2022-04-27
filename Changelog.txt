@@ -1,0 +1,8 @@
+// ----- Ver. 0.1 for 1.18.2 - Initial Release -----//
+
+Blocks added: Charcoal block, Frosted Glass + Panes, Stained/Frosted Cracked Glass + Panes, Framed Stained/Frosted Glass + Panes, Glowglass, Steel block, Rose Gold block, Nether Steel Ore, 
+
+Items added: Glass Shard, Glass Dust, Golden Baked Potato, Golden Beetroot, Golden Beetroot Soup, Golden Bread, Golden Chorus Fruit, Golden Cooked Beef, Golden Cooked Chicken, Golden Cooked Cod, Golden Cooked Mutton, Golden Cooked Porkchop, Golden Cooked Rabbit, Golden Cooked Salmon, Golden Glow Berries, Golden Pumpkin Pie, Golden Sweet Berries, Copper Nugget/Tools/Armor, Rose Gold Ingot/Nugget/Tools/Armor, Steel Ingot/Nugget/Tools/Armor, Stitched Rotten Flesh 
+
+World Gen: Steel Nether Ore to Nether generation. 
+

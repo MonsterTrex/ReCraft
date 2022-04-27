@@ -1,14 +1,22 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "xx",
-    "xx"
-  ],
-  "key": {
-    "x": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "minecraft:string"
     }
-  },
+  ],
   "result": {
     "item": "recraft:stitched_rotten_flesh",
     "count": 1
