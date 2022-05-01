@@ -6,6 +6,16 @@ Items added: Glass Shard, Glass Dust, Golden Baked Potato, Golden Beetroot, Gold
 
 World Gen: Steel Nether Ore to Nether generation. 
 
+
+
 // ----- Ver. 0.1.1 for 1.18.2 - Bug Fix -----//
 
 Bug Fixed: Glass dropped double the glass shards than intended.
+
+
+
+// ----- Ver. 0.1.2 for 1.18.2 - Balancing and Bug Fix -----//
+
+Balancing changes: Golden food rebalance as certain recipes are too powerful or very expensive.
+
+Bug Fixed: Golden meat food items were unable to be fed to dogs - fixed.
