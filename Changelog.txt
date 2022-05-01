@@ -6,3 +6,6 @@ Items added: Glass Shard, Glass Dust, Golden Baked Potato, Golden Beetroot, Gold
 
 World Gen: Steel Nether Ore to Nether generation. 
 
+// ----- Ver. 0.1.1 for 1.18.2 - Bug Fix -----//
+
+Bug Fixed: Glass dropped double the glass shards than intended.
