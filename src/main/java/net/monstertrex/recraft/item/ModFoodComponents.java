@@ -7,7 +7,7 @@ import net.minecraft.item.FoodComponent;
 public class ModFoodComponents {
 
     public static FoodComponent GOLDEN_BAKED_POTATO = new FoodComponent.Builder()
-            .hunger(8).saturationModifier(1.2f)
+            .hunger(8).saturationModifier(1.4f)
             .build();
 
     public static FoodComponent GOLDEN_BEETROOT = new FoodComponent.Builder()
@@ -16,12 +16,12 @@ public class ModFoodComponents {
             .build();
 
     public static FoodComponent GOLDEN_BEETROOT_SOUP = new FoodComponent.Builder()
-            .hunger(12).saturationModifier(1.4f)
+            .hunger(14).saturationModifier(0.8f)
             .alwaysEdible().statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 2400), 1f)
             .build();
 
     public static FoodComponent GOLDEN_BREAD = new FoodComponent.Builder()
-            .hunger(8).saturationModifier(1.2f)
+            .hunger(8).saturationModifier(1.4f)
             .build();
 
     public static FoodComponent GOLDEN_CHORUS_FRUIT = new FoodComponent.Builder()
@@ -31,10 +31,12 @@ public class ModFoodComponents {
 
     public static FoodComponent GOLDEN_COOKED_BEEF = new FoodComponent.Builder()
             .hunger(10).saturationModifier(0.8f).meat()
+            .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 100), 1f)
             .build();
 
     public static FoodComponent GOLDEN_COOKED_CHICKEN = new FoodComponent.Builder()
             .hunger(8).saturationModifier(0.6f).meat()
+            .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 100), 1f)
             .alwaysEdible().statusEffect(new StatusEffectInstance(StatusEffects.SLOW_FALLING, 800), 1f)
             .build();
 
@@ -45,11 +47,13 @@ public class ModFoodComponents {
             .build();
 
     public static FoodComponent GOLDEN_COOKED_MUTTON = new FoodComponent.Builder()
-            .hunger(8).saturationModifier(0.8f).meat()
+            .hunger(9).saturationModifier(0.8f).meat()
+            .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 150), 1f)
             .build();
 
     public static FoodComponent GOLDEN_COOKED_PORKCHOP = new FoodComponent.Builder()
             .hunger(10).saturationModifier(0.8f).meat()
+            .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 100), 1f)
             .build();
 
     public static FoodComponent GOLDEN_COOKED_RABBIT = new FoodComponent.Builder()
@@ -70,7 +74,7 @@ public class ModFoodComponents {
 
     public static FoodComponent GOLDEN_PUMPKIN_PIE = new FoodComponent.Builder()
             .hunger(10).saturationModifier(0.8f)
-            .alwaysEdible().statusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 3600), 1f)
+            .alwaysEdible().statusEffect(new StatusEffectInstance(StatusEffects.NIGHT_VISION, 1200), 1f)
             .build();
 
     public static FoodComponent GOLDEN_SWEET_BERRIES = new FoodComponent.Builder()

@@ -19,3 +19,9 @@ Bug Fixed: Glass dropped double the glass shards than intended.
 Balancing changes: Golden food rebalance as certain recipes are too powerful or very expensive.
 
 Bug Fixed: Golden meat food items were unable to be fed to dogs - fixed.
+
+
+
+// ----- Ver. 0.1.3 for 1.18.2 - Balancing -----//
+
+Balancing changes: Golden food rebalance as some food was over-nerfed. Giving some more saturation to plant-based foods, and regeneration to meat based foods.
