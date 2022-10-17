@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "yyy",
+    "yyy",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:jungle_slab"
+    },
+    "y": {
+      "item": "minecraft:glow_berries"
+    }
+  },
+  "result": {
+    "item": "recraft:glow_berry_crate",
+    "count": 1
+  }
+}

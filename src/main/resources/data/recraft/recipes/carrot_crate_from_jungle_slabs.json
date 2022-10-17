@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "yyy",
+    "yyy",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:jungle_slab"
+    },
+    "y": {
+      "item": "minecraft:carrot"
+    }
+  },
+  "result": {
+    "item": "recraft:carrot_crate",
+    "count": 1
+  }
+}

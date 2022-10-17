@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "yyy",
+    "yyy",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:acacia_slab"
+    },
+    "y": {
+      "item": "minecraft:potato"
+    }
+  },
+  "result": {
+    "item": "recraft:potato_crate",
+    "count": 1
+  }
+}
