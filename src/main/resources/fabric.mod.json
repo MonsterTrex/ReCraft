@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "recraft",
-  "version": "0.1.3",
+  "version": "0.4",
 
   "name": "ReCraft",
   "description": "A mod adding a lot of vanilla enhancements to Minecraft",
@@ -30,9 +30,9 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.13.3",
+    "fabricloader": ">=0.14.9",
     "fabric": "*",
-    "minecraft": "1.18.2",
+    "minecraft": "1.19.2",
     "java": ">=17"
   },
   "suggests": {

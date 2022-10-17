@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_open",
+  "textures": {
+    "texture": "recraft:block/steel_trapdoor",
+    "particle": "recraft:block/steel_trapdoor"
+  }
+}

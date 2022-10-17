@@ -1,7 +1,7 @@
 package net.monstertrex.recraft.mixin;
 
-import net.monstertrex.recraft.Recraft;
 import net.minecraft.client.gui.screen.TitleScreen;
+import net.monstertrex.recraft.Recraft;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;

@@ -213,6 +213,10 @@ public class RecraftClient implements ClientModInitializer {
 
 
 
+        // ------------ Ore Block Translucent Render ------------ //
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.STEEL_DOOR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.STEEL_TRAPDOOR, RenderLayer.getCutout());
+
 
     }
 }

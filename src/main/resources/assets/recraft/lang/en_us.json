@@ -1,5 +1,13 @@
 {
   "block.recraft.charcoal_block": "Block Of Charcoal",
+  "block.recraft.apple_crate": "Apple Crate",
+  "block.recraft.beetroot_crate": "Beetroot Crate",
+  "block.recraft.carrot_crate": "Carrot Crate",
+  "block.recraft.chorus_fruit_crate": "Chorus Fruit Crate",
+  "block.recraft.glow_berry_crate": "Glow Berry Crate",
+  "block.recraft.potato_crate": "Potato Crate",
+  "block.recraft.sweet_berry_crate": "Sweet Berry Crate",
+
   "block.recraft.cracked_glass": "Cracked Glass",
   "block.recraft.cracked_black_stained_glass": "Cracked Black Stained Glass",
   "block.recraft.cracked_blue_stained_glass": "Cracked Blue Stained Glass",
@@ -260,6 +268,8 @@
   "item.recraft.steel_horse_armor": "Steel Horse Armor",
 
   "block.recraft.steel_block": "Steel Block",
+  "block.recraft.steel_door": "Steel Door",
+  "block.recraft.steel_trapdoor": "Steel Trapdoor",
   "block.recraft.nether_steel_ore": "Nether Steel Ore",
 
 

@@ -11,15 +11,40 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.util.registry.Registry;
 import net.monstertrex.recraft.Recraft;
+import net.monstertrex.recraft.block.custom.ModDoorBlock;
 import net.monstertrex.recraft.block.custom.ModPaneBlock;
+import net.monstertrex.recraft.block.custom.ModTrapdoorBlock;
 import net.monstertrex.recraft.item.ModItemGroups;
 
 public class ModBlocks {
 
     //------------------------------------------ Block List ------------------------------------------//
 
+       //--- Compressed Blocks ---//
     public static final Block CHARCOAL_BLOCK = registerBlock("charcoal_block", new Block(FabricBlockSettings
             .of(Material.STONE).strength(5,6).requiresTool().sounds(BlockSoundGroup.STONE)), ModItemGroups.RECRAFT);
+
+    public static final Block APPLE_CRATE = registerBlock("apple_crate", new Block(FabricBlockSettings
+            .of(Material.WOOD).strength(2,2).requiresTool().sounds(BlockSoundGroup.NETHER_WART)), ModItemGroups.RECRAFT);
+
+    public static final Block BEETROOT_CRATE = registerBlock("beetroot_crate", new Block(FabricBlockSettings
+            .of(Material.WOOD).strength(2,2).requiresTool().sounds(BlockSoundGroup.NETHER_WART)), ModItemGroups.RECRAFT);
+
+    public static final Block CARROT_CRATE = registerBlock("carrot_crate", new Block(FabricBlockSettings
+            .of(Material.WOOD).strength(2,2).requiresTool().sounds(BlockSoundGroup.NETHER_WART)), ModItemGroups.RECRAFT);
+
+    public static final Block CHORUS_FRUIT_CRATE = registerBlock("chorus_fruit_crate", new Block(FabricBlockSettings
+            .of(Material.WOOD).strength(2,2).requiresTool().sounds(BlockSoundGroup.NETHER_WART)), ModItemGroups.RECRAFT);
+
+    public static final Block GLOW_BERRY_CRATE = registerBlock("glow_berry_crate", new Block(FabricBlockSettings
+            .of(Material.WOOD).strength(2,2).requiresTool().sounds(BlockSoundGroup.NETHER_WART)), ModItemGroups.RECRAFT);
+
+    public static final Block POTATO_CRATE = registerBlock("potato_crate", new Block(FabricBlockSettings
+            .of(Material.WOOD).strength(2,2).requiresTool().sounds(BlockSoundGroup.NETHER_WART)), ModItemGroups.RECRAFT);
+
+    public static final Block SWEET_BERRY_CRATE = registerBlock("sweet_berry_crate", new Block(FabricBlockSettings
+            .of(Material.WOOD).strength(2,2).requiresTool().sounds(BlockSoundGroup.NETHER_WART)), ModItemGroups.RECRAFT);
+
 
         //--- Glass Blocks ---//
     public static final Block CRACKED_GLASS = registerBlock("cracked_glass", new GlassBlock(FabricBlockSettings
@@ -604,6 +629,12 @@ public class ModBlocks {
     //--- Steel Blocks ---//
     public static final Block STEEL_BLOCK = registerBlock("steel_block", new Block(FabricBlockSettings
             .of(Material.METAL).strength(5,6).requiresTool().sounds(BlockSoundGroup.METAL)), ModItemGroups.RECRAFT);
+
+    public static final Block STEEL_DOOR = registerBlock("steel_door", new ModDoorBlock(FabricBlockSettings
+            .of(Material.METAL).strength(5,6).requiresTool().sounds(BlockSoundGroup.METAL).nonOpaque()), ModItemGroups.RECRAFT);
+
+    public static final Block STEEL_TRAPDOOR = registerBlock("steel_trapdoor", new ModTrapdoorBlock(FabricBlockSettings
+            .of(Material.METAL).strength(5,6).requiresTool().sounds(BlockSoundGroup.METAL).nonOpaque()), ModItemGroups.RECRAFT);
 
     public static final Block NETHER_STEEL_ORE = registerBlock("nether_steel_ore", new OreBlock(FabricBlockSettings
             .of(Material.STONE).strength(3,3).requiresTool().sounds(BlockSoundGroup.NETHER_GOLD_ORE), UniformIntProvider.create(0,1)), ModItemGroups.RECRAFT);

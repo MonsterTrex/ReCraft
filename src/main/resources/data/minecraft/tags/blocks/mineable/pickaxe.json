@@ -4,6 +4,8 @@
     "recraft:charcoal_block",
     "recraft:rose_gold_block",
     "recraft:steel_block",
+    "recraft:steel_door",
+    "recraft:steel_trapdoor",
     "recraft:nether_steel_ore"
   ]
 }

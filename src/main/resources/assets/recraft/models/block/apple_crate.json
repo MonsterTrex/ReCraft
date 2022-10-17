@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "recraft:block/crate_bottom",
+    "up": "recraft:block/crate_apple_top",
+    "north": "recraft:block/crate_apple_side",
+    "east": "recraft:block/crate_apple_side",
+    "south": "recraft:block/crate_apple_side",
+    "west": "recraft:block/crate_apple_side",
+    "particle": "recraft:block/crate_bottom"
+  }
+}

@@ -1,6 +1,12 @@
 {
   "replace": false,
   "values": [
-
+    "recraft:apple_crate",
+    "recraft:beetroot_crate",
+    "recraft:carrot_crate",
+    "recraft:chorus_fruit_crate",
+    "recraft:glow_berry_crate",
+    "recraft:potato_crate",
+    "recraft:sweet_berry_crate"
   ]
 }

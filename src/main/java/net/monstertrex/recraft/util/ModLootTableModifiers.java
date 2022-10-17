@@ -1,7 +1,8 @@
 package net.monstertrex.recraft.util;
 
-import net.fabricmc.fabric.api.loot.v1.FabricLootPoolBuilder;
-import net.fabricmc.fabric.api.loot.v1.event.LootTableLoadingCallback;
+
+import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
+import net.minecraft.loot.LootPool;
 import net.monstertrex.recraft.item.ModItems;
 import net.minecraft.loot.condition.RandomChanceLootCondition;
 import net.minecraft.loot.entry.ItemEntry;
@@ -115,14 +116,14 @@ public class ModLootTableModifiers {
         // Block ID added Look Tables //
 
     public static void modifyLootTables() {
-        LootTableLoadingCallback.EVENT.register(((resourceManager, manager, id, supplier, setter) -> {
+        LootTableEvents.MODIFY.register(((resourceManager, manager, id, supplier, setter) -> {
             if(GLASS_BLOCK_ID.equals(id)) {
-                FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
+                LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(1))
                         .with(ItemEntry.builder(ModItems.GLASS_SHARD))
-                        .withFunction(SetCountLootFunction.builder(UniformLootNumberProvider.create(2.0f, 4.0f)).build());
-                supplier.withPool(poolBuilder.build());
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(2.0f, 4.0f)).build());
+                supplier.pool(poolBuilder.build());
             }
 
 
