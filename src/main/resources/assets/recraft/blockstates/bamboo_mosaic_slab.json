@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "recraft:block/bamboo_mosaic_slab"
+    },
+    "type=double": {
+      "model": "recraft:block/bamboo_mosaic"
+    },
+    "type=top": {
+      "model": "recraft:block/bamboo_mosaic_slab_top"
+    }
+  }
+}

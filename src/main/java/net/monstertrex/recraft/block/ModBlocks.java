@@ -11,9 +11,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.util.registry.Registry;
 import net.monstertrex.recraft.Recraft;
-import net.monstertrex.recraft.block.custom.ModDoorBlock;
-import net.monstertrex.recraft.block.custom.ModPaneBlock;
-import net.monstertrex.recraft.block.custom.ModTrapdoorBlock;
+import net.monstertrex.recraft.block.custom.*;
 import net.monstertrex.recraft.item.ModItemGroups;
 
 public class ModBlocks {
@@ -21,32 +19,35 @@ public class ModBlocks {
     //------------------------------------------ Block List ------------------------------------------//
 
        //--- Compressed Blocks ---//
+
     public static final Block CHARCOAL_BLOCK = registerBlock("charcoal_block", new Block(FabricBlockSettings
-            .of(Material.STONE).strength(5,6).requiresTool().sounds(BlockSoundGroup.STONE)), ModItemGroups.RECRAFT);
+            .of(Material.STONE).strength(5,6).sounds(BlockSoundGroup.STONE)), ModItemGroups.RECRAFT);
 
     public static final Block APPLE_CRATE = registerBlock("apple_crate", new Block(FabricBlockSettings
-            .of(Material.WOOD).strength(2,2).requiresTool().sounds(BlockSoundGroup.NETHER_WART)), ModItemGroups.RECRAFT);
+            .of(Material.WOOD).strength(2,2).sounds(BlockSoundGroup.NETHER_WART)), ModItemGroups.RECRAFT);
 
     public static final Block BEETROOT_CRATE = registerBlock("beetroot_crate", new Block(FabricBlockSettings
-            .of(Material.WOOD).strength(2,2).requiresTool().sounds(BlockSoundGroup.NETHER_WART)), ModItemGroups.RECRAFT);
+            .of(Material.WOOD).strength(2,2).sounds(BlockSoundGroup.NETHER_WART)), ModItemGroups.RECRAFT);
 
     public static final Block CARROT_CRATE = registerBlock("carrot_crate", new Block(FabricBlockSettings
-            .of(Material.WOOD).strength(2,2).requiresTool().sounds(BlockSoundGroup.NETHER_WART)), ModItemGroups.RECRAFT);
+            .of(Material.WOOD).strength(2,2).sounds(BlockSoundGroup.NETHER_WART)), ModItemGroups.RECRAFT);
 
     public static final Block CHORUS_FRUIT_CRATE = registerBlock("chorus_fruit_crate", new Block(FabricBlockSettings
-            .of(Material.WOOD).strength(2,2).requiresTool().sounds(BlockSoundGroup.NETHER_WART)), ModItemGroups.RECRAFT);
+            .of(Material.WOOD).strength(2,2).sounds(BlockSoundGroup.NETHER_WART)), ModItemGroups.RECRAFT);
 
     public static final Block GLOW_BERRY_CRATE = registerBlock("glow_berry_crate", new Block(FabricBlockSettings
-            .of(Material.WOOD).strength(2,2).requiresTool().sounds(BlockSoundGroup.NETHER_WART)), ModItemGroups.RECRAFT);
+            .of(Material.WOOD).strength(2,2).sounds(BlockSoundGroup.NETHER_WART)), ModItemGroups.RECRAFT);
 
     public static final Block POTATO_CRATE = registerBlock("potato_crate", new Block(FabricBlockSettings
-            .of(Material.WOOD).strength(2,2).requiresTool().sounds(BlockSoundGroup.NETHER_WART)), ModItemGroups.RECRAFT);
+            .of(Material.WOOD).strength(2,2).sounds(BlockSoundGroup.NETHER_WART)), ModItemGroups.RECRAFT);
 
     public static final Block SWEET_BERRY_CRATE = registerBlock("sweet_berry_crate", new Block(FabricBlockSettings
-            .of(Material.WOOD).strength(2,2).requiresTool().sounds(BlockSoundGroup.NETHER_WART)), ModItemGroups.RECRAFT);
+            .of(Material.WOOD).strength(2,2).sounds(BlockSoundGroup.NETHER_WART)), ModItemGroups.RECRAFT);
+
 
 
         //--- Glass Blocks ---//
+
     public static final Block CRACKED_GLASS = registerBlock("cracked_glass", new GlassBlock(FabricBlockSettings
             .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque()), ModItemGroups.RECRAFT);
 
@@ -621,12 +622,14 @@ public class ModBlocks {
 
 
     //--- Rose Gold Blocks ---//
+
     public static final Block ROSE_GOLD_BLOCK = registerBlock("rose_gold_block", new Block(FabricBlockSettings
             .of(Material.METAL).strength(5,6).requiresTool().sounds(BlockSoundGroup.METAL)), ModItemGroups.RECRAFT);
 
 
 
     //--- Steel Blocks ---//
+
     public static final Block STEEL_BLOCK = registerBlock("steel_block", new Block(FabricBlockSettings
             .of(Material.METAL).strength(5,6).requiresTool().sounds(BlockSoundGroup.METAL)), ModItemGroups.RECRAFT);
 
@@ -641,9 +644,126 @@ public class ModBlocks {
 
 
 
+    //--- Bamboo Blocks ---//
+
+    public static final Block BAMBOO_STACK = registerBlock("bamboo_stack", new Block(FabricBlockSettings
+            .copy(Blocks.OAK_PLANKS)), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_STAIRS = registerBlock("bamboo_stairs", new ModStairsBlock
+            (ModBlocks.BAMBOO_STACK.getDefaultState(), FabricBlockSettings
+            .copy(Blocks.OAK_STAIRS)), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_SLAB = registerBlock("bamboo_slab", new SlabBlock(FabricBlockSettings
+            .copy(Blocks.OAK_SLAB)), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_PLANKS = registerBlock("bamboo_planks", new Block(FabricBlockSettings
+            .copy(Blocks.OAK_PLANKS)), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_PLANK_STAIRS = registerBlock("bamboo_plank_stairs", new ModStairsBlock
+            (ModBlocks.BAMBOO_PLANKS.getDefaultState(), FabricBlockSettings
+                    .copy(Blocks.OAK_STAIRS)), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_PLANK_SLAB = registerBlock("bamboo_plank_slab", new SlabBlock(FabricBlockSettings
+            .copy(Blocks.OAK_SLAB)), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_MOSAIC = registerBlock("bamboo_mosaic", new Block(FabricBlockSettings
+            .copy(Blocks.OAK_PLANKS)), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_MOSAIC_STAIRS = registerBlock("bamboo_mosaic_stairs", new ModStairsBlock
+            (ModBlocks.BAMBOO_MOSAIC.getDefaultState(), FabricBlockSettings
+                    .copy(Blocks.OAK_STAIRS)), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_MOSAIC_SLAB = registerBlock("bamboo_mosaic_slab", new SlabBlock(FabricBlockSettings
+            .copy(Blocks.OAK_SLAB)), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_FENCE = registerBlock("bamboo_fence", new FenceBlock(FabricBlockSettings
+            .copy(Blocks.OAK_FENCE)), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_FENCE_GATE = registerBlock("bamboo_fence_gate", new FenceGateBlock(FabricBlockSettings
+            .copy(Blocks.OAK_FENCE_GATE)), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_DOOR = registerBlock("bamboo_door", new ModDoorBlock(FabricBlockSettings
+            .copy(Blocks.OAK_DOOR).nonOpaque()), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_TRAPDOOR = registerBlock("bamboo_trapdoor", new ModTrapdoorBlock(FabricBlockSettings
+            .copy(Blocks.OAK_TRAPDOOR).nonOpaque()), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_BUTTON = registerBlock("bamboo_button", new ModWoodButtonBlock(FabricBlockSettings
+            .copy(Blocks.OAK_BUTTON)), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_PRESSURE_PLATE = registerBlock("bamboo_pressure_plate", new ModPressurePlateBlock
+            (PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings
+            .copy(Blocks.OAK_PRESSURE_PLATE)), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_WALL_SIGN_BLOCK = registerBlockWithoutBlockItem("bamboo_wall_sign",
+            new WallSignBlock(FabricBlockSettings.copy(Blocks.OAK_WALL_SIGN), ModSignTypes.BAMBOO));
+
+    public static final Block BAMBOO_SIGN_BLOCK = registerBlockWithoutBlockItem("bamboo_sign",
+            new SignBlock(FabricBlockSettings.copy(Blocks.OAK_SIGN), ModSignTypes.BAMBOO));
+
+
+    public static final Block DRIED_BAMBOO_STACK = registerBlock("dried_bamboo_stack", new Block(FabricBlockSettings
+            .copy(Blocks.OAK_PLANKS)), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_STAIRS = registerBlock("dried_bamboo_stairs", new ModStairsBlock
+            (ModBlocks.DRIED_BAMBOO_STACK.getDefaultState(), FabricBlockSettings
+            .copy(Blocks.OAK_STAIRS)), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_SLAB = registerBlock("dried_bamboo_slab", new SlabBlock(FabricBlockSettings
+            .copy(Blocks.OAK_SLAB)), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_PLANKS = registerBlock("dried_bamboo_planks", new Block(FabricBlockSettings
+            .copy(Blocks.OAK_PLANKS)), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_PLANK_STAIRS = registerBlock("dried_bamboo_plank_stairs", new ModStairsBlock
+            (ModBlocks.DRIED_BAMBOO_PLANKS.getDefaultState(), FabricBlockSettings
+                    .copy(Blocks.OAK_STAIRS)), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_PLANK_SLAB = registerBlock("dried_bamboo_plank_slab", new SlabBlock(FabricBlockSettings
+            .copy(Blocks.OAK_SLAB)), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_MOSAIC = registerBlock("dried_bamboo_mosaic", new Block(FabricBlockSettings
+            .copy(Blocks.OAK_PLANKS)), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_MOSAIC_STAIRS = registerBlock("dried_bamboo_mosaic_stairs", new ModStairsBlock
+            (ModBlocks.DRIED_BAMBOO_MOSAIC.getDefaultState(), FabricBlockSettings
+                    .copy(Blocks.OAK_STAIRS)), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_MOSAIC_SLAB = registerBlock("dried_bamboo_mosaic_slab", new SlabBlock(FabricBlockSettings
+            .copy(Blocks.OAK_SLAB)), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_FENCE = registerBlock("dried_bamboo_fence", new FenceBlock(FabricBlockSettings
+            .copy(Blocks.OAK_FENCE)), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_FENCE_GATE = registerBlock("dried_bamboo_fence_gate", new FenceGateBlock(FabricBlockSettings
+            .copy(Blocks.OAK_FENCE_GATE)), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_DOOR = registerBlock("dried_bamboo_door", new ModDoorBlock(FabricBlockSettings
+            .copy(Blocks.OAK_DOOR).nonOpaque()), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_TRAPDOOR = registerBlock("dried_bamboo_trapdoor", new ModTrapdoorBlock(FabricBlockSettings
+            .copy(Blocks.OAK_TRAPDOOR).nonOpaque()), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_BUTTON = registerBlock("dried_bamboo_button", new ModWoodButtonBlock(FabricBlockSettings
+            .copy(Blocks.OAK_BUTTON)), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_PRESSURE_PLATE = registerBlock("dried_bamboo_pressure_plate", new ModPressurePlateBlock
+            (PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings
+            .copy(Blocks.OAK_PRESSURE_PLATE)), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_WALL_SIGN_BLOCK = registerBlockWithoutBlockItem("dried_bamboo_wall_sign",
+            new WallSignBlock(FabricBlockSettings.copy(Blocks.OAK_WALL_SIGN), ModSignTypes.DRIED_BAMBOO));
+
+    public static final Block DRIED_BAMBOO_SIGN_BLOCK = registerBlockWithoutBlockItem("dried_bamboo_sign",
+            new SignBlock(FabricBlockSettings.copy(Blocks.OAK_SIGN), ModSignTypes.DRIED_BAMBOO));
+
+
 
     //------------------------------------ Registering Block List ------------------------------------//
 
+    private static Block registerBlockWithoutBlockItem(String name, Block block) {
+        return Registry.register(Registry.BLOCK, new Identifier(Recraft.MOD_ID, name), block);
+    }
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK, new Identifier(Recraft.MOD_ID, name), block);

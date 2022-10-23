@@ -3,7 +3,6 @@ package net.monstertrex.recraft;
 import net.fabricmc.api.ModInitializer;
 import net.monstertrex.recraft.block.ModBlocks;
 import net.monstertrex.recraft.item.ModItems;
-import net.monstertrex.recraft.util.ModLootTableModifiers;
 import net.monstertrex.recraft.util.ModRegistries;
 import net.monstertrex.recraft.world.feature.ModConfiguredFeatures;
 import net.monstertrex.recraft.world.gen.ModWorldGen;
@@ -21,7 +20,6 @@ public class Recraft implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
 
-		ModLootTableModifiers.modifyLootTables();
 		ModRegistries.registerModStuffs();
 
 		ModWorldGen.generateModWorldGen();

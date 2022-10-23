@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right",
+  "textures": {
+    "bottom": "recraft:block/bamboo_door_bottom",
+    "top": "recraft:block/bamboo_door_top"
+  }
+}

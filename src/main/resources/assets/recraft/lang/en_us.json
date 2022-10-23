@@ -273,5 +273,44 @@
   "block.recraft.nether_steel_ore": "Nether Steel Ore",
 
 
+
+  "block.recraft.bamboo_stack": "Bamboo Stack",
+  "block.recraft.bamboo_stairs": "Bamboo Stairs",
+  "block.recraft.bamboo_slab": "Bamboo Slabs",
+  "block.recraft.bamboo_planks": "Bamboo Planks",
+  "block.recraft.bamboo_plank_stairs": "Bamboo Plank Stairs",
+  "block.recraft.bamboo_plank_slab": "Bamboo Plank Slabs",
+  "block.recraft.bamboo_mosaic": "Bamboo Mosaic",
+  "block.recraft.bamboo_mosaic_stairs": "Bamboo Mosaic Stairs",
+  "block.recraft.bamboo_mosaic_slab": "Bamboo Mosaic Slabs",
+  "block.recraft.bamboo_fence": "Bamboo Fence",
+  "block.recraft.bamboo_fence_gate": "Bamboo Fence Gate",
+  "block.recraft.bamboo_door": "Bamboo Door",
+  "block.recraft.bamboo_trapdoor": "Bamboo Trapdoor",
+  "block.recraft.bamboo_button": "Bamboo Button",
+  "block.recraft.bamboo_pressure_plate": "Bamboo Pressure Plate",
+  "block.recraft.bamboo_sign": "Bamboo Sign",
+  "block.recraft.bamboo_raft": "Bamboo Raft",
+
+  "block.recraft.dried_bamboo_stack": "Dried Bamboo Stack",
+  "block.recraft.dried_bamboo_stairs": "Dried Bamboo Stairs",
+  "block.recraft.dried_bamboo_slab": "Dried Bamboo Slabs",
+  "block.recraft.dried_bamboo_planks": "Dried Bamboo Planks",
+  "block.recraft.dried_bamboo_plank_stairs": "Dried Bamboo Plank Stairs",
+  "block.recraft.dried_bamboo_plank_slab": "Dried Bamboo Plank Slabs",
+  "block.recraft.dried_bamboo_mosaic": "Dried Bamboo Mosaic",
+  "block.recraft.dried_bamboo_mosaic_stairs": "Dried Bamboo Mosaic Stairs",
+  "block.recraft.dried_bamboo_mosaic_slab": "Dried Bamboo Mosaic Slabs",
+  "block.recraft.dried_bamboo_fence": "Dried Bamboo Fence",
+  "block.recraft.dried_bamboo_fence_gate": "Dried Bamboo Fence Gate",
+  "block.recraft.dried_bamboo_door": "Dried Bamboo Door",
+  "block.recraft.dried_bamboo_trapdoor": "Dried Bamboo Trapdoor",
+  "block.recraft.dried_bamboo_button": "Dried Bamboo Button",
+  "block.recraft.dried_bamboo_pressure_plate": "Dried Bamboo Pressure Plate",
+  "block.recraft.dried_bamboo_sign": "Dried Bamboo Sign",
+  "block.recraft.dried_bamboo_raft": "Dried Bamboo Raft",
+
+
+
   "itemGroup.recraft.recraft": "ReCraft"
 }

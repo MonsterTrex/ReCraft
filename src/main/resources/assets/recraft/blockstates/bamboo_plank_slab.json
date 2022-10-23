@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "recraft:block/bamboo_plank_slab"
+    },
+    "type=double": {
+      "model": "recraft:block/bamboo_planks"
+    },
+    "type=top": {
+      "model": "recraft:block/bamboo_plank_slab_top"
+    }
+  }
+}

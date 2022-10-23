@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "recraft:bamboo_stack",
+    "recraft:bamboo_planks",
+    "recraft:dried_bamboo_stack",
+    "recraft:dried_bamboo_planks"
+  ]
+}

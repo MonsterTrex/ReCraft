@@ -28,10 +28,16 @@ Balancing changes: Golden food rebalance as some food was over-nerfed. Giving so
 
 
 
-// ----- Ver. 0.1.4 for 1.12.2 - Small Update -----//
+// ----- Ver. 0.1.4 for 1.19.2 - Small Update -----//
 
 Update to Minecraft version 1.19.2
 
 Blocks added: Fruit/Vegetable Crates, Steel Door and Steel Trapdoor.
 
 
+
+// ----- Ver. 0.2 for 1.19.2 - Bamboo blocks and bug fix -----//
+
+Blocks added: Bamboo and Dried Bamboo blocks inspired by the Minecraft 1.20 update.
+
+Bug Fixed: Vanilla glass blocks dropped both glass shards and glass blocks when broken using silk touch.

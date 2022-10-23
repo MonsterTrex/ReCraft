@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "recraft:block/dried_bamboo_mosaic",
+    "top": "recraft:block/dried_bamboo_mosaic",
+    "side": "recraft:block/dried_bamboo_mosaic"
+  }
+}

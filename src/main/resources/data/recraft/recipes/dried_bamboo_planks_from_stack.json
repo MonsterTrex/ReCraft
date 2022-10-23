@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "recraft:dried_bamboo_stack"
+    }
+  },
+  "result": {
+    "item": "recraft:dried_bamboo_planks",
+    "count": 9
+  }
+}

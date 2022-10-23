@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "recraft:block/dried_bamboo_planks",
+    "side": "recraft:block/dried_bamboo_planks"
+  }
+}

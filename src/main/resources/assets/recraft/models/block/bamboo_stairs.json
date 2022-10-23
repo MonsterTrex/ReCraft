@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "recraft:block/bamboo_stack_top",
+    "top": "recraft:block/bamboo_stack_top",
+    "side": "recraft:block/bamboo_stack"
+  }
+}

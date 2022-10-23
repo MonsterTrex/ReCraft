@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "recraft:bamboo_fence"
+  },
+  "result": "recraft:dried_bamboo_fence",
+  "experience": 0.1,
+  "cookingtime": 200
+}

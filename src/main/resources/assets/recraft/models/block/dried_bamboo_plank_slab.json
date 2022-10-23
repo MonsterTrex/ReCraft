@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "recraft:block/dried_bamboo_planks",
+    "top": "recraft:block/dried_bamboo_planks",
+    "side": "recraft:block/dried_bamboo_planks"
+  }
+}

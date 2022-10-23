@@ -10,6 +10,7 @@ Steel - Tools/Armor are more durable than iron, less so than diamond and they ha
 Building Blocks added:
 Charcoal Block - Crafted using charcoal to create a block that can smelt 80 items.
 Fruit/Vegetable Crates - Crafted using wooden slabs and any fruit/vegetable item.
+Bamboo and Dried Bamboo blocks - Crafted using bamboo in a 3x3 workbench.
 Frosted Glass + Panes - Crafted using new item called Glass Dust.
 Stained/Frosted Cracked Glass + Panes - Crafted by smelting any stained glass in furnace.
 Framed Stained/Frosted Glass + Panes - Crafted with iron ingot and glass, with dye applied after the creation of Framed Glass.

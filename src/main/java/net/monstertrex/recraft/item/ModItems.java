@@ -5,9 +5,11 @@ import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.HorseArmorItem;
 import net.minecraft.item.Item;
+import net.minecraft.item.SignItem;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.monstertrex.recraft.Recraft;
+import net.monstertrex.recraft.block.ModBlocks;
 import net.monstertrex.recraft.item.custom.*;
 
 public class ModItems{
@@ -200,6 +202,17 @@ public class ModItems{
     public static final Item STEEL_HORSE_ARMOR = registerItem("steel_horse_armor",
             new HorseArmorItem(7, "steel",
                     new FabricItemSettings().group(ModItemGroups.RECRAFT)));
+
+
+    //--- Bamboo Blocks ---//
+
+    public static final Item BAMBOO_SIGN = registerItem("bamboo_sign",
+            new SignItem(new FabricItemSettings().group(ModItemGroups.RECRAFT).maxCount(16),
+                    ModBlocks.BAMBOO_SIGN_BLOCK, ModBlocks.BAMBOO_WALL_SIGN_BLOCK));
+
+    public static final Item DRIED_BAMBOO_SIGN = registerItem("dried_bamboo_sign",
+            new SignItem(new FabricItemSettings().group(ModItemGroups.RECRAFT).maxCount(16),
+                    ModBlocks.DRIED_BAMBOO_SIGN_BLOCK, ModBlocks.DRIED_BAMBOO_WALL_SIGN_BLOCK));
 
 
 

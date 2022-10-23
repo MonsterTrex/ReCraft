@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "recraft:block/bamboo_mosaic",
+    "side": "recraft:block/bamboo_mosaic"
+  }
+}
