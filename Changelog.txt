@@ -41,3 +41,14 @@ Blocks added: Fruit/Vegetable Crates, Steel Door and Steel Trapdoor.
 Blocks added: Bamboo and Dried Bamboo blocks inspired by the Minecraft 1.20 update.
 
 Bug Fixed: Vanilla glass blocks dropped both glass shards and glass blocks when broken using silk touch.
+
+
+
+// ----- Ver. 0.2.1 for 1.19.2 - Bamboo blocks and bug fix -----//
+
+Recipe Change: Fruit/Vegetable crates made using 1 slab, 2 sticks and 6 fruit/veg items.
+
+Loot Table Changes: Fruit/Vegetable crates now drop sticks and fruit/veg recipe items upon breaking without silk touch. Previously unable to retrieve fruit/veg used in recipe after block created.
+
+
+

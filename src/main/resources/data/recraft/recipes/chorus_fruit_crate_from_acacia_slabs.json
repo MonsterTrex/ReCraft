@@ -3,7 +3,7 @@
   "pattern": [
     "yyy",
     "yyy",
-    "xxx"
+    "zxz"
   ],
   "key": {
     "x": {
@@ -11,6 +11,9 @@
     },
     "y": {
       "item": "minecraft:chorus_fruit"
+    },
+    "z": {
+      "item": "minecraft:stick"
     }
   },
   "result": {

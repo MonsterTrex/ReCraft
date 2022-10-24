@@ -3,7 +3,7 @@
   "pattern": [
     "yyy",
     "yyy",
-    "xxx"
+    "zxz"
   ],
   "key": {
     "x": {
@@ -11,6 +11,9 @@
     },
     "y": {
       "item": "minecraft:glow_berries"
+    },
+    "z": {
+      "item": "minecraft:stick"
     }
   },
   "result": {
