@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "yyy",
+    "yyy",
+    "zxz"
+  ],
+  "key": {
+    "x": {
+      "item": "recraft:dried_bamboo_slab"
+    },
+    "y": {
+      "item": "minecraft:potato"
+    },
+    "z": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "recraft:potato_crate",
+    "count": 1
+  }
+}

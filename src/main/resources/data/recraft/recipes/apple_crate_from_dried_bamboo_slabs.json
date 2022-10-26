@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "yyy",
+    "yyy",
+    "zxz"
+  ],
+  "key": {
+    "x": {
+      "item": "recraft:dried_bamboo_slab"
+    },
+    "y": {
+      "item": "minecraft:apple"
+    },
+    "z": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "recraft:apple_crate",
+    "count": 1
+  }
+}

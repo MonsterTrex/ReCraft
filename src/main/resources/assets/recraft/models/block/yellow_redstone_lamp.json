@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "recraft:block/yellow_redstone_lamp"
+  }
+}

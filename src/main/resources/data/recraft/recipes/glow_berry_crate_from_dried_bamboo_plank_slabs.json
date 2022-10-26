@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "yyy",
+    "yyy",
+    "zxz"
+  ],
+  "key": {
+    "x": {
+      "item": "recraft:dried_bamboo_plank_slab"
+    },
+    "y": {
+      "item": "minecraft:glow_berries"
+    },
+    "z": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "recraft:glow_berry_crate",
+    "count": 1
+  }
+}

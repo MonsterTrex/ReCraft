@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "yyy",
+    "yyy",
+    "zxz"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:warped_slab"
+    },
+    "y": {
+      "item": "minecraft:beetroot"
+    },
+    "z": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "recraft:beetroot_crate",
+    "count": 1
+  }
+}

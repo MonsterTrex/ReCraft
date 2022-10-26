@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "yyy",
+    "yyy",
+    "zxz"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:crimson_slab"
+    },
+    "y": {
+      "item": "minecraft:chorus_fruit"
+    },
+    "z": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "recraft:chorus_fruit_crate",
+    "count": 1
+  }
+}
