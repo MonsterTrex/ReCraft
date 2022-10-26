@@ -12,6 +12,7 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.minecraft.util.registry.Registry;
 import net.monstertrex.recraft.Recraft;
 import net.monstertrex.recraft.block.custom.*;
+import net.monstertrex.recraft.block.custom.RedstoneLampBlock;
 import net.monstertrex.recraft.item.ModItemGroups;
 
 public class ModBlocks {
@@ -43,6 +44,144 @@ public class ModBlocks {
 
     public static final Block SWEET_BERRY_CRATE = registerBlock("sweet_berry_crate", new Block(FabricBlockSettings
             .of(Material.WOOD).strength(2,2).sounds(BlockSoundGroup.NETHER_WART)), ModItemGroups.RECRAFT);
+
+
+
+    //--- Rose Gold Blocks ---//
+
+    public static final Block ROSE_GOLD_BLOCK = registerBlock("rose_gold_block", new Block(FabricBlockSettings
+            .of(Material.METAL).strength(5,6).requiresTool().sounds(BlockSoundGroup.METAL)), ModItemGroups.RECRAFT);
+
+
+
+    //--- Steel Blocks ---//
+
+    public static final Block STEEL_BLOCK = registerBlock("steel_block", new Block(FabricBlockSettings
+            .of(Material.METAL).strength(5,6).requiresTool().sounds(BlockSoundGroup.METAL)), ModItemGroups.RECRAFT);
+
+    public static final Block STEEL_DOOR = registerBlock("steel_door", new ModDoorBlock(FabricBlockSettings
+            .of(Material.METAL).strength(5,6).requiresTool().sounds(BlockSoundGroup.METAL).nonOpaque()), ModItemGroups.RECRAFT);
+
+    public static final Block STEEL_TRAPDOOR = registerBlock("steel_trapdoor", new ModTrapdoorBlock(FabricBlockSettings
+            .of(Material.METAL).strength(5,6).requiresTool().sounds(BlockSoundGroup.METAL).nonOpaque()), ModItemGroups.RECRAFT);
+
+    public static final Block NETHER_STEEL_ORE = registerBlock("nether_steel_ore", new OreBlock(FabricBlockSettings
+            .of(Material.STONE).strength(3,3).requiresTool().sounds(BlockSoundGroup.NETHER_GOLD_ORE), UniformIntProvider.create(0,1)), ModItemGroups.RECRAFT);
+
+
+
+    //--- Bamboo Blocks ---//
+
+    public static final Block BAMBOO_STACK = registerBlock("bamboo_stack", new Block(FabricBlockSettings
+            .copy(Blocks.OAK_PLANKS)), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_STAIRS = registerBlock("bamboo_stairs", new ModStairsBlock
+            (ModBlocks.BAMBOO_STACK.getDefaultState(), FabricBlockSettings
+                    .copy(Blocks.OAK_STAIRS)), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_SLAB = registerBlock("bamboo_slab", new SlabBlock(FabricBlockSettings
+            .copy(Blocks.OAK_SLAB)), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_PLANKS = registerBlock("bamboo_planks", new Block(FabricBlockSettings
+            .copy(Blocks.OAK_PLANKS)), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_PLANK_STAIRS = registerBlock("bamboo_plank_stairs", new ModStairsBlock
+            (ModBlocks.BAMBOO_PLANKS.getDefaultState(), FabricBlockSettings
+                    .copy(Blocks.OAK_STAIRS)), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_PLANK_SLAB = registerBlock("bamboo_plank_slab", new SlabBlock(FabricBlockSettings
+            .copy(Blocks.OAK_SLAB)), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_MOSAIC = registerBlock("bamboo_mosaic", new Block(FabricBlockSettings
+            .copy(Blocks.OAK_PLANKS)), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_MOSAIC_STAIRS = registerBlock("bamboo_mosaic_stairs", new ModStairsBlock
+            (ModBlocks.BAMBOO_MOSAIC.getDefaultState(), FabricBlockSettings
+                    .copy(Blocks.OAK_STAIRS)), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_MOSAIC_SLAB = registerBlock("bamboo_mosaic_slab", new SlabBlock(FabricBlockSettings
+            .copy(Blocks.OAK_SLAB)), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_FENCE = registerBlock("bamboo_fence", new FenceBlock(FabricBlockSettings
+            .copy(Blocks.OAK_FENCE)), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_FENCE_GATE = registerBlock("bamboo_fence_gate", new FenceGateBlock(FabricBlockSettings
+            .copy(Blocks.OAK_FENCE_GATE)), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_DOOR = registerBlock("bamboo_door", new ModDoorBlock(FabricBlockSettings
+            .copy(Blocks.OAK_DOOR).nonOpaque()), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_TRAPDOOR = registerBlock("bamboo_trapdoor", new ModTrapdoorBlock(FabricBlockSettings
+            .copy(Blocks.OAK_TRAPDOOR).nonOpaque()), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_BUTTON = registerBlock("bamboo_button", new ModWoodButtonBlock(FabricBlockSettings
+            .copy(Blocks.OAK_BUTTON)), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_PRESSURE_PLATE = registerBlock("bamboo_pressure_plate", new ModPressurePlateBlock
+            (PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings
+                    .copy(Blocks.OAK_PRESSURE_PLATE)), ModItemGroups.RECRAFT);
+
+    public static final Block BAMBOO_WALL_SIGN_BLOCK = registerBlockWithoutBlockItem("bamboo_wall_sign",
+            new WallSignBlock(FabricBlockSettings.copy(Blocks.OAK_WALL_SIGN), ModSignTypes.BAMBOO));
+
+    public static final Block BAMBOO_SIGN_BLOCK = registerBlockWithoutBlockItem("bamboo_sign",
+            new SignBlock(FabricBlockSettings.copy(Blocks.OAK_SIGN), ModSignTypes.BAMBOO));
+
+
+    public static final Block DRIED_BAMBOO_STACK = registerBlock("dried_bamboo_stack", new Block(FabricBlockSettings
+            .copy(Blocks.OAK_PLANKS)), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_STAIRS = registerBlock("dried_bamboo_stairs", new ModStairsBlock
+            (ModBlocks.DRIED_BAMBOO_STACK.getDefaultState(), FabricBlockSettings
+                    .copy(Blocks.OAK_STAIRS)), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_SLAB = registerBlock("dried_bamboo_slab", new SlabBlock(FabricBlockSettings
+            .copy(Blocks.OAK_SLAB)), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_PLANKS = registerBlock("dried_bamboo_planks", new Block(FabricBlockSettings
+            .copy(Blocks.OAK_PLANKS)), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_PLANK_STAIRS = registerBlock("dried_bamboo_plank_stairs", new ModStairsBlock
+            (ModBlocks.DRIED_BAMBOO_PLANKS.getDefaultState(), FabricBlockSettings
+                    .copy(Blocks.OAK_STAIRS)), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_PLANK_SLAB = registerBlock("dried_bamboo_plank_slab", new SlabBlock(FabricBlockSettings
+            .copy(Blocks.OAK_SLAB)), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_MOSAIC = registerBlock("dried_bamboo_mosaic", new Block(FabricBlockSettings
+            .copy(Blocks.OAK_PLANKS)), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_MOSAIC_STAIRS = registerBlock("dried_bamboo_mosaic_stairs", new ModStairsBlock
+            (ModBlocks.DRIED_BAMBOO_MOSAIC.getDefaultState(), FabricBlockSettings
+                    .copy(Blocks.OAK_STAIRS)), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_MOSAIC_SLAB = registerBlock("dried_bamboo_mosaic_slab", new SlabBlock(FabricBlockSettings
+            .copy(Blocks.OAK_SLAB)), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_FENCE = registerBlock("dried_bamboo_fence", new FenceBlock(FabricBlockSettings
+            .copy(Blocks.OAK_FENCE)), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_FENCE_GATE = registerBlock("dried_bamboo_fence_gate", new FenceGateBlock(FabricBlockSettings
+            .copy(Blocks.OAK_FENCE_GATE)), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_DOOR = registerBlock("dried_bamboo_door", new ModDoorBlock(FabricBlockSettings
+            .copy(Blocks.OAK_DOOR).nonOpaque()), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_TRAPDOOR = registerBlock("dried_bamboo_trapdoor", new ModTrapdoorBlock(FabricBlockSettings
+            .copy(Blocks.OAK_TRAPDOOR).nonOpaque()), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_BUTTON = registerBlock("dried_bamboo_button", new ModWoodButtonBlock(FabricBlockSettings
+            .copy(Blocks.OAK_BUTTON)), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_PRESSURE_PLATE = registerBlock("dried_bamboo_pressure_plate", new ModPressurePlateBlock
+            (PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings
+                    .copy(Blocks.OAK_PRESSURE_PLATE)), ModItemGroups.RECRAFT);
+
+    public static final Block DRIED_BAMBOO_WALL_SIGN_BLOCK = registerBlockWithoutBlockItem("dried_bamboo_wall_sign",
+            new WallSignBlock(FabricBlockSettings.copy(Blocks.OAK_WALL_SIGN), ModSignTypes.DRIED_BAMBOO));
+
+    public static final Block DRIED_BAMBOO_SIGN_BLOCK = registerBlockWithoutBlockItem("dried_bamboo_sign",
+            new SignBlock(FabricBlockSettings.copy(Blocks.OAK_SIGN), ModSignTypes.DRIED_BAMBOO));
 
 
 
@@ -568,194 +707,229 @@ public class ModBlocks {
             .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque()), ModItemGroups.RECRAFT);
 
 
-    public static final Block GLOWGLASS = registerBlock("glowglass", new GlassBlock(FabricBlockSettings
-                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
 
-    public static final Block BLACK_GLOWGLASS = registerBlock("black_glowglass", new GlassBlock(FabricBlockSettings
-                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(10)), ModItemGroups.RECRAFT);
+    // --- Light Blocks --- //
+
+    public static final Block GLOWGLASS = registerBlock("glowglass", new GlassBlock(FabricBlockSettings
+            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
+
+//    public static final Block BLACK_GLOWGLASS = registerBlock("black_glowglass", new GlassBlock(FabricBlockSettings
+//            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(10)), ModItemGroups.RECRAFT);
 
     public static final Block BLUE_GLOWGLASS = registerBlock("blue_glowglass", new GlassBlock(FabricBlockSettings
-                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
+            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
 
-    public static final Block BROWN_GLOWGLASS = registerBlock("brown_glowglass", new GlassBlock(FabricBlockSettings
-                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
+//    public static final Block BROWN_GLOWGLASS = registerBlock("brown_glowglass", new GlassBlock(FabricBlockSettings
+//            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
 
     public static final Block CYAN_GLOWGLASS = registerBlock("cyan_glowglass", new GlassBlock(FabricBlockSettings
-                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
+            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
 
-    public static final Block GREEN_GLOWGLASS = registerBlock("gray_glowglass", new GlassBlock(FabricBlockSettings
-                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(14)), ModItemGroups.RECRAFT);
+//    public static final Block GRAY_GLOWGLASS = registerBlock("gray_glowglass", new GlassBlock(FabricBlockSettings
+//            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(14)), ModItemGroups.RECRAFT);
 
-    public static final Block GRAY_GLOWGLASS = registerBlock("green_glowglass", new GlassBlock(FabricBlockSettings
-                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
+    public static final Block GREEN_GLOWGLASS = registerBlock("green_glowglass", new GlassBlock(FabricBlockSettings
+            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
 
     public static final Block LIGHT_BLUE_GLOWGLASS = registerBlock("light_blue_glowglass", new GlassBlock(FabricBlockSettings
-                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
+            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
 
-    public static final Block LIGHT_GRAY_GLOWGLASS = registerBlock("light_gray_glowglass", new GlassBlock(FabricBlockSettings
-                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
+//    public static final Block LIGHT_GRAY_GLOWGLASS = registerBlock("light_gray_glowglass", new GlassBlock(FabricBlockSettings
+//            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
 
     public static final Block LIME_GLOWGLASS = registerBlock("lime_glowglass", new GlassBlock(FabricBlockSettings
-                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
+            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
 
     public static final Block MAGENTA_GLOWGLASS = registerBlock("magenta_glowglass", new GlassBlock(FabricBlockSettings
-                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
+            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
 
     public static final Block ORANGE_GLOWGLASS = registerBlock("orange_glowglass", new GlassBlock(FabricBlockSettings
-                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
+            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
 
     public static final Block PINK_GLOWGLASS = registerBlock("pink_glowglass", new GlassBlock(FabricBlockSettings
-                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
+            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
 
     public static final Block PURPLE_GLOWGLASS = registerBlock("purple_glowglass", new GlassBlock(FabricBlockSettings
-                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
+            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
 
     public static final Block RED_GLOWGLASS = registerBlock("red_glowglass", new GlassBlock(FabricBlockSettings
-                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
+            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
 
     public static final Block WHITE_GLOWGLASS = registerBlock("white_glowglass", new GlassBlock(FabricBlockSettings
-                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
+            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
 
     public static final Block YELLOW_GLOWGLASS = registerBlock("yellow_glowglass", new GlassBlock(FabricBlockSettings
-                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
+            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).nonOpaque().luminance(15)), ModItemGroups.RECRAFT);
 
 
 
-    //--- Rose Gold Blocks ---//
+//    public static final Block BLACK_GLOWSTONE = registerBlock("black_glowstone", new GlassBlock(FabricBlockSettings
+//            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(10)), ModItemGroups.RECRAFT);
 
-    public static final Block ROSE_GOLD_BLOCK = registerBlock("rose_gold_block", new Block(FabricBlockSettings
-            .of(Material.METAL).strength(5,6).requiresTool().sounds(BlockSoundGroup.METAL)), ModItemGroups.RECRAFT);
+    public static final Block BLUE_GLOWSTONE = registerBlock("blue_glowstone", new GlassBlock(FabricBlockSettings
+            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
 
+//    public static final Block BROWN_GLOWSTONE = registerBlock("brown_glowstone", new GlassBlock(FabricBlockSettings
+//            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
 
+    public static final Block CYAN_GLOWSTONE = registerBlock("cyan_glowstone", new GlassBlock(FabricBlockSettings
+            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
 
-    //--- Steel Blocks ---//
+//    public static final Block GRAY_GLOWSTONE = registerBlock("gray_glowstone", new GlassBlock(FabricBlockSettings
+//            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
 
-    public static final Block STEEL_BLOCK = registerBlock("steel_block", new Block(FabricBlockSettings
-            .of(Material.METAL).strength(5,6).requiresTool().sounds(BlockSoundGroup.METAL)), ModItemGroups.RECRAFT);
+    public static final Block GREEN_GLOWSTONE = registerBlock("green_glowstone", new GlassBlock(FabricBlockSettings
+            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
 
-    public static final Block STEEL_DOOR = registerBlock("steel_door", new ModDoorBlock(FabricBlockSettings
-            .of(Material.METAL).strength(5,6).requiresTool().sounds(BlockSoundGroup.METAL).nonOpaque()), ModItemGroups.RECRAFT);
+    public static final Block LIGHT_BLUE_GLOWSTONE = registerBlock("light_blue_glowstone", new GlassBlock(FabricBlockSettings
+            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
 
-    public static final Block STEEL_TRAPDOOR = registerBlock("steel_trapdoor", new ModTrapdoorBlock(FabricBlockSettings
-            .of(Material.METAL).strength(5,6).requiresTool().sounds(BlockSoundGroup.METAL).nonOpaque()), ModItemGroups.RECRAFT);
+//    public static final Block LIGHT_GRAY_GLOWSTONE = registerBlock("light_gray_glowstone", new GlassBlock(FabricBlockSettings
+//            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
 
-    public static final Block NETHER_STEEL_ORE = registerBlock("nether_steel_ore", new OreBlock(FabricBlockSettings
-            .of(Material.STONE).strength(3,3).requiresTool().sounds(BlockSoundGroup.NETHER_GOLD_ORE), UniformIntProvider.create(0,1)), ModItemGroups.RECRAFT);
+    public static final Block LIME_GLOWSTONE = registerBlock("lime_glowstone", new GlassBlock(FabricBlockSettings
+            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
 
+    public static final Block MAGENTA_GLOWSTONE = registerBlock("magenta_glowstone", new GlassBlock(FabricBlockSettings
+            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
 
+    public static final Block ORANGE_GLOWSTONE = registerBlock("orange_glowstone", new GlassBlock(FabricBlockSettings
+            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
 
-    //--- Bamboo Blocks ---//
+    public static final Block PINK_GLOWSTONE = registerBlock("pink_glowstone", new GlassBlock(FabricBlockSettings
+            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
 
-    public static final Block BAMBOO_STACK = registerBlock("bamboo_stack", new Block(FabricBlockSettings
-            .copy(Blocks.OAK_PLANKS)), ModItemGroups.RECRAFT);
+    public static final Block PURPLE_GLOWSTONE = registerBlock("purple_glowstone", new GlassBlock(FabricBlockSettings
+            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
 
-    public static final Block BAMBOO_STAIRS = registerBlock("bamboo_stairs", new ModStairsBlock
-            (ModBlocks.BAMBOO_STACK.getDefaultState(), FabricBlockSettings
-            .copy(Blocks.OAK_STAIRS)), ModItemGroups.RECRAFT);
+    public static final Block RED_GLOWSTONE = registerBlock("red_glowstone", new GlassBlock(FabricBlockSettings
+            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
 
-    public static final Block BAMBOO_SLAB = registerBlock("bamboo_slab", new SlabBlock(FabricBlockSettings
-            .copy(Blocks.OAK_SLAB)), ModItemGroups.RECRAFT);
+    public static final Block WHITE_GLOWSTONE = registerBlock("white_glowstone", new GlassBlock(FabricBlockSettings
+            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
 
-    public static final Block BAMBOO_PLANKS = registerBlock("bamboo_planks", new Block(FabricBlockSettings
-            .copy(Blocks.OAK_PLANKS)), ModItemGroups.RECRAFT);
-
-    public static final Block BAMBOO_PLANK_STAIRS = registerBlock("bamboo_plank_stairs", new ModStairsBlock
-            (ModBlocks.BAMBOO_PLANKS.getDefaultState(), FabricBlockSettings
-                    .copy(Blocks.OAK_STAIRS)), ModItemGroups.RECRAFT);
-
-    public static final Block BAMBOO_PLANK_SLAB = registerBlock("bamboo_plank_slab", new SlabBlock(FabricBlockSettings
-            .copy(Blocks.OAK_SLAB)), ModItemGroups.RECRAFT);
-
-    public static final Block BAMBOO_MOSAIC = registerBlock("bamboo_mosaic", new Block(FabricBlockSettings
-            .copy(Blocks.OAK_PLANKS)), ModItemGroups.RECRAFT);
-
-    public static final Block BAMBOO_MOSAIC_STAIRS = registerBlock("bamboo_mosaic_stairs", new ModStairsBlock
-            (ModBlocks.BAMBOO_MOSAIC.getDefaultState(), FabricBlockSettings
-                    .copy(Blocks.OAK_STAIRS)), ModItemGroups.RECRAFT);
-
-    public static final Block BAMBOO_MOSAIC_SLAB = registerBlock("bamboo_mosaic_slab", new SlabBlock(FabricBlockSettings
-            .copy(Blocks.OAK_SLAB)), ModItemGroups.RECRAFT);
-
-    public static final Block BAMBOO_FENCE = registerBlock("bamboo_fence", new FenceBlock(FabricBlockSettings
-            .copy(Blocks.OAK_FENCE)), ModItemGroups.RECRAFT);
-
-    public static final Block BAMBOO_FENCE_GATE = registerBlock("bamboo_fence_gate", new FenceGateBlock(FabricBlockSettings
-            .copy(Blocks.OAK_FENCE_GATE)), ModItemGroups.RECRAFT);
-
-    public static final Block BAMBOO_DOOR = registerBlock("bamboo_door", new ModDoorBlock(FabricBlockSettings
-            .copy(Blocks.OAK_DOOR).nonOpaque()), ModItemGroups.RECRAFT);
-
-    public static final Block BAMBOO_TRAPDOOR = registerBlock("bamboo_trapdoor", new ModTrapdoorBlock(FabricBlockSettings
-            .copy(Blocks.OAK_TRAPDOOR).nonOpaque()), ModItemGroups.RECRAFT);
-
-    public static final Block BAMBOO_BUTTON = registerBlock("bamboo_button", new ModWoodButtonBlock(FabricBlockSettings
-            .copy(Blocks.OAK_BUTTON)), ModItemGroups.RECRAFT);
-
-    public static final Block BAMBOO_PRESSURE_PLATE = registerBlock("bamboo_pressure_plate", new ModPressurePlateBlock
-            (PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings
-            .copy(Blocks.OAK_PRESSURE_PLATE)), ModItemGroups.RECRAFT);
-
-    public static final Block BAMBOO_WALL_SIGN_BLOCK = registerBlockWithoutBlockItem("bamboo_wall_sign",
-            new WallSignBlock(FabricBlockSettings.copy(Blocks.OAK_WALL_SIGN), ModSignTypes.BAMBOO));
-
-    public static final Block BAMBOO_SIGN_BLOCK = registerBlockWithoutBlockItem("bamboo_sign",
-            new SignBlock(FabricBlockSettings.copy(Blocks.OAK_SIGN), ModSignTypes.BAMBOO));
+    public static final Block YELLOW_GLOWSTONE = registerBlock("yellow_glowstone", new GlassBlock(FabricBlockSettings
+            .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
 
 
-    public static final Block DRIED_BAMBOO_STACK = registerBlock("dried_bamboo_stack", new Block(FabricBlockSettings
-            .copy(Blocks.OAK_PLANKS)), ModItemGroups.RECRAFT);
 
-    public static final Block DRIED_BAMBOO_STAIRS = registerBlock("dried_bamboo_stairs", new ModStairsBlock
-            (ModBlocks.DRIED_BAMBOO_STACK.getDefaultState(), FabricBlockSettings
-            .copy(Blocks.OAK_STAIRS)), ModItemGroups.RECRAFT);
+//    public static final Block BLACK_REDSTONE_LAMP = registerBlock("black_redstone_lamp", new RedstoneLampBlock(FabricBlockSettings
+//            .of(Material.REDSTONE_LAMP).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS)
+//            .luminance(state -> state.get(RedstoneLampBlock.LIT) ? 10 : 0)), ModItemGroups.RECRAFT);
 
-    public static final Block DRIED_BAMBOO_SLAB = registerBlock("dried_bamboo_slab", new SlabBlock(FabricBlockSettings
-            .copy(Blocks.OAK_SLAB)), ModItemGroups.RECRAFT);
+    public static final Block BLUE_REDSTONE_LAMP = registerBlock("blue_redstone_lamp", new RedstoneLampBlock(FabricBlockSettings
+            .of(Material.REDSTONE_LAMP).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS)
+            .luminance(state -> state.get(RedstoneLampBlock.LIT) ? 15 : 0)), ModItemGroups.RECRAFT);
 
-    public static final Block DRIED_BAMBOO_PLANKS = registerBlock("dried_bamboo_planks", new Block(FabricBlockSettings
-            .copy(Blocks.OAK_PLANKS)), ModItemGroups.RECRAFT);
+//    public static final Block BROWN_REDSTONE_LAMP = registerBlock("brown_redstone_lamp", new RedstoneLampBlock(FabricBlockSettings
+//            .of(Material.REDSTONE_LAMP).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS)
+//            .luminance(state -> state.get(RedstoneLampBlock.LIT) ? 15 : 0)), ModItemGroups.RECRAFT);
 
-    public static final Block DRIED_BAMBOO_PLANK_STAIRS = registerBlock("dried_bamboo_plank_stairs", new ModStairsBlock
-            (ModBlocks.DRIED_BAMBOO_PLANKS.getDefaultState(), FabricBlockSettings
-                    .copy(Blocks.OAK_STAIRS)), ModItemGroups.RECRAFT);
+    public static final Block CYAN_REDSTONE_LAMP = registerBlock("cyan_redstone_lamp", new RedstoneLampBlock(FabricBlockSettings
+            .of(Material.REDSTONE_LAMP).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS)
+            .luminance(state -> state.get(RedstoneLampBlock.LIT) ? 15 : 0)), ModItemGroups.RECRAFT);
 
-    public static final Block DRIED_BAMBOO_PLANK_SLAB = registerBlock("dried_bamboo_plank_slab", new SlabBlock(FabricBlockSettings
-            .copy(Blocks.OAK_SLAB)), ModItemGroups.RECRAFT);
+//    public static final Block GRAY_REDSTONE_LAMP = registerBlock("gray_redstone_lamp", new RedstoneLampBlock(FabricBlockSettings
+//            .of(Material.REDSTONE_LAMP).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS)
+//            .luminance(state -> state.get(RedstoneLampBlock.LIT) ? 14 : 0)), ModItemGroups.RECRAFT);
 
-    public static final Block DRIED_BAMBOO_MOSAIC = registerBlock("dried_bamboo_mosaic", new Block(FabricBlockSettings
-            .copy(Blocks.OAK_PLANKS)), ModItemGroups.RECRAFT);
+    public static final Block GREEN_REDSTONE_LAMP = registerBlock("green_redstone_lamp", new RedstoneLampBlock(FabricBlockSettings
+            .of(Material.REDSTONE_LAMP).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS)
+            .luminance(state -> state.get(RedstoneLampBlock.LIT) ? 15 : 0)), ModItemGroups.RECRAFT);
 
-    public static final Block DRIED_BAMBOO_MOSAIC_STAIRS = registerBlock("dried_bamboo_mosaic_stairs", new ModStairsBlock
-            (ModBlocks.DRIED_BAMBOO_MOSAIC.getDefaultState(), FabricBlockSettings
-                    .copy(Blocks.OAK_STAIRS)), ModItemGroups.RECRAFT);
+    public static final Block LIGHT_BLUE_REDSTONE_LAMP = registerBlock("light_blue_redstone_lamp", new RedstoneLampBlock(FabricBlockSettings
+            .of(Material.REDSTONE_LAMP).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS)
+            .luminance(state -> state.get(RedstoneLampBlock.LIT) ? 15 : 0)), ModItemGroups.RECRAFT);
 
-    public static final Block DRIED_BAMBOO_MOSAIC_SLAB = registerBlock("dried_bamboo_mosaic_slab", new SlabBlock(FabricBlockSettings
-            .copy(Blocks.OAK_SLAB)), ModItemGroups.RECRAFT);
+//    public static final Block LIGHT_GRAY_REDSTONE_LAMP = registerBlock("light_gray_redstone_lamp", new RedstoneLampBlock(FabricBlockSettings
+//            .of(Material.REDSTONE_LAMP).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS)
+//            .luminance(state -> state.get(RedstoneLampBlock.LIT) ? 15 : 0)), ModItemGroups.RECRAFT);
 
-    public static final Block DRIED_BAMBOO_FENCE = registerBlock("dried_bamboo_fence", new FenceBlock(FabricBlockSettings
-            .copy(Blocks.OAK_FENCE)), ModItemGroups.RECRAFT);
+    public static final Block LIME_REDSTONE_LAMP = registerBlock("lime_redstone_lamp", new RedstoneLampBlock(FabricBlockSettings
+            .of(Material.REDSTONE_LAMP).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS)
+            .luminance(state -> state.get(RedstoneLampBlock.LIT) ? 15 : 0)), ModItemGroups.RECRAFT);
 
-    public static final Block DRIED_BAMBOO_FENCE_GATE = registerBlock("dried_bamboo_fence_gate", new FenceGateBlock(FabricBlockSettings
-            .copy(Blocks.OAK_FENCE_GATE)), ModItemGroups.RECRAFT);
+    public static final Block MAGENTA_REDSTONE_LAMP = registerBlock("magenta_redstone_lamp", new RedstoneLampBlock(FabricBlockSettings
+            .of(Material.REDSTONE_LAMP).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS)
+            .luminance(state -> state.get(RedstoneLampBlock.LIT) ? 15 : 0)), ModItemGroups.RECRAFT);
 
-    public static final Block DRIED_BAMBOO_DOOR = registerBlock("dried_bamboo_door", new ModDoorBlock(FabricBlockSettings
-            .copy(Blocks.OAK_DOOR).nonOpaque()), ModItemGroups.RECRAFT);
+    public static final Block ORANGE_REDSTONE_LAMP = registerBlock("orange_redstone_lamp", new RedstoneLampBlock(FabricBlockSettings
+            .of(Material.REDSTONE_LAMP).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS)
+            .luminance(state -> state.get(RedstoneLampBlock.LIT) ? 15 : 0)), ModItemGroups.RECRAFT);
 
-    public static final Block DRIED_BAMBOO_TRAPDOOR = registerBlock("dried_bamboo_trapdoor", new ModTrapdoorBlock(FabricBlockSettings
-            .copy(Blocks.OAK_TRAPDOOR).nonOpaque()), ModItemGroups.RECRAFT);
+    public static final Block PINK_REDSTONE_LAMP = registerBlock("pink_redstone_lamp", new RedstoneLampBlock(FabricBlockSettings
+            .of(Material.REDSTONE_LAMP).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS)
+            .luminance(state -> state.get(RedstoneLampBlock.LIT) ? 15 : 0)), ModItemGroups.RECRAFT);
 
-    public static final Block DRIED_BAMBOO_BUTTON = registerBlock("dried_bamboo_button", new ModWoodButtonBlock(FabricBlockSettings
-            .copy(Blocks.OAK_BUTTON)), ModItemGroups.RECRAFT);
+    public static final Block PURPLE_REDSTONE_LAMP = registerBlock("purple_redstone_lamp", new RedstoneLampBlock(FabricBlockSettings
+            .of(Material.REDSTONE_LAMP).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS)
+            .luminance(state -> state.get(RedstoneLampBlock.LIT) ? 15 : 0)), ModItemGroups.RECRAFT);
 
-    public static final Block DRIED_BAMBOO_PRESSURE_PLATE = registerBlock("dried_bamboo_pressure_plate", new ModPressurePlateBlock
-            (PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings
-            .copy(Blocks.OAK_PRESSURE_PLATE)), ModItemGroups.RECRAFT);
+    public static final Block RED_REDSTONE_LAMP = registerBlock("red_redstone_lamp", new RedstoneLampBlock(FabricBlockSettings
+            .of(Material.REDSTONE_LAMP).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS)
+            .luminance(state -> state.get(RedstoneLampBlock.LIT) ? 15 : 0)), ModItemGroups.RECRAFT);
 
-    public static final Block DRIED_BAMBOO_WALL_SIGN_BLOCK = registerBlockWithoutBlockItem("dried_bamboo_wall_sign",
-            new WallSignBlock(FabricBlockSettings.copy(Blocks.OAK_WALL_SIGN), ModSignTypes.DRIED_BAMBOO));
+    public static final Block WHITE_REDSTONE_LAMP = registerBlock("white_redstone_lamp", new RedstoneLampBlock(FabricBlockSettings
+            .of(Material.REDSTONE_LAMP).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS)
+            .luminance(state -> state.get(RedstoneLampBlock.LIT) ? 15 : 0)), ModItemGroups.RECRAFT);
 
-    public static final Block DRIED_BAMBOO_SIGN_BLOCK = registerBlockWithoutBlockItem("dried_bamboo_sign",
-            new SignBlock(FabricBlockSettings.copy(Blocks.OAK_SIGN), ModSignTypes.DRIED_BAMBOO));
+    public static final Block YELLOW_REDSTONE_LAMP = registerBlock("yellow_redstone_lamp", new RedstoneLampBlock(FabricBlockSettings
+            .of(Material.REDSTONE_LAMP).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS)
+            .luminance(state -> state.get(RedstoneLampBlock.LIT) ? 15 : 0)), ModItemGroups.RECRAFT);
+
+
+
+//    public static final Block BLACK_SEA_LANTERN = registerBlock("black_sea_lantern", new GlassBlock(FabricBlockSettings
+//                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(10)), ModItemGroups.RECRAFT);
+
+    public static final Block BLUE_SEA_LANTERN = registerBlock("blue_sea_lantern", new GlassBlock(FabricBlockSettings
+                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
+
+//    public static final Block BROWN_SEA_LANTERN = registerBlock("brown_sea_lantern", new GlassBlock(FabricBlockSettings
+//                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
+
+    public static final Block CYAN_SEA_LANTERN = registerBlock("cyan_sea_lantern", new GlassBlock(FabricBlockSettings
+                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
+
+//    public static final Block GRAY_SEA_LANTERN = registerBlock("gray_sea_lantern", new GlassBlock(FabricBlockSettings
+//                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(14)), ModItemGroups.RECRAFT);
+
+    public static final Block GREEN_SEA_LANTERN = registerBlock("green_sea_lantern", new GlassBlock(FabricBlockSettings
+                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
+
+    public static final Block LIGHT_BLUE_SEA_LANTERN = registerBlock("light_blue_sea_lantern", new GlassBlock(FabricBlockSettings
+                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
+
+//    public static final Block LIGHT_GRAY_SEA_LANTERN = registerBlock("light_gray_sea_lantern", new GlassBlock(FabricBlockSettings
+//                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
+
+    public static final Block LIME_SEA_LANTERN = registerBlock("lime_sea_lantern", new GlassBlock(FabricBlockSettings
+                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
+
+    public static final Block MAGENTA_SEA_LANTERN = registerBlock("magenta_sea_lantern", new GlassBlock(FabricBlockSettings
+                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
+
+    public static final Block ORANGE_SEA_LANTERN = registerBlock("orange_sea_lantern", new GlassBlock(FabricBlockSettings
+                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
+
+    public static final Block PINK_SEA_LANTERN = registerBlock("pink_sea_lantern", new GlassBlock(FabricBlockSettings
+                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
+
+    public static final Block PURPLE_SEA_LANTERN = registerBlock("purple_sea_lantern", new GlassBlock(FabricBlockSettings
+                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
+
+    public static final Block RED_SEA_LANTERN = registerBlock("red_sea_lantern", new GlassBlock(FabricBlockSettings
+                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
+
+    public static final Block WHITE_SEA_LANTERN = registerBlock("white_sea_lantern", new GlassBlock(FabricBlockSettings
+                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
+
+    public static final Block YELLOW_SEA_LANTERN = registerBlock("yellow_sea_lantern", new GlassBlock(FabricBlockSettings
+                    .of(Material.GLASS).strength(0.3f,0.3f).sounds(BlockSoundGroup.GLASS).luminance(15)), ModItemGroups.RECRAFT);
+
+
+
+    // --- xxx --- //
 
 
 

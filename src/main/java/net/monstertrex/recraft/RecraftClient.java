@@ -194,14 +194,14 @@ public class RecraftClient implements ClientModInitializer {
 
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GLOWGLASS, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_GLOWGLASS, RenderLayer.getTranslucent());
+//        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLACK_GLOWGLASS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BLUE_GLOWGLASS, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BROWN_GLOWGLASS, RenderLayer.getTranslucent());
+//        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BROWN_GLOWGLASS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CYAN_GLOWGLASS, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRAY_GLOWGLASS, RenderLayer.getTranslucent());
+//        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GRAY_GLOWGLASS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.GREEN_GLOWGLASS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_BLUE_GLOWGLASS, RenderLayer.getTranslucent());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_GRAY_GLOWGLASS, RenderLayer.getTranslucent());
+//        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIGHT_GRAY_GLOWGLASS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LIME_GLOWGLASS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MAGENTA_GLOWGLASS, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ORANGE_GLOWGLASS, RenderLayer.getTranslucent());

@@ -52,3 +52,13 @@ Loot Table Changes: Fruit/Vegetable crates now drop sticks and fruit/veg recipe 
 
 
 
+// ----- Ver. 0.2.2 for 1.19.2 - Coloured lights -----//
+
+Blocks Added: Coloured sea lanterns, redstone lamps and glowstone added.
+
+Recipe Added: Fruit/Vegetable crates made using crimson, warped, bamboo and dried bamboo slabs.
+
+Blocks Removed: All black, brown, gray, and light gray light blocks - only white is with the intention of existing.
+
+
+
