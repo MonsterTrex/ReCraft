@@ -259,13 +259,13 @@
   "item.recraft.golden_beetroot_soup": "Golden Beetroot Soup",
   "item.recraft.golden_bread": "Golden Bread",
   "item.recraft.golden_chorus_fruit": "Golden Chorus Fruit",
-  "item.recraft.golden_cooked_beef": "Golden Cooked Beef",
-  "item.recraft.golden_cooked_chicken": "Golden Cooked Chicken",
-  "item.recraft.golden_cooked_cod": "Golden Cooked Cod",
-  "item.recraft.golden_cooked_mutton": "Golden Cooked Mutton",
-  "item.recraft.golden_cooked_porkchop": "Golden Cooked Porkchop",
-  "item.recraft.golden_cooked_rabbit": "Golden Cooked Rabbit",
-  "item.recraft.golden_cooked_salmon": "Golden Cooked Salmon",
+  "item.recraft.golden_cooked_beef": "Golden Beef",
+  "item.recraft.golden_cooked_chicken": "Golden Chicken",
+  "item.recraft.golden_cooked_cod": "Golden Cod",
+  "item.recraft.golden_cooked_mutton": "Golden Mutton",
+  "item.recraft.golden_cooked_porkchop": "Golden Porkchop",
+  "item.recraft.golden_cooked_rabbit": "Golden Rabbit",
+  "item.recraft.golden_cooked_salmon": "Golden Salmon",
   "item.recraft.golden_glow_berries": "Golden Glow Berries",
   "item.recraft.golden_pumpkin_pie": "Golden Pumpkin Pie",
   "item.recraft.golden_sweet_berries": "Golden Sweet Berries",
@@ -273,6 +273,7 @@
 
 
   "item.recraft.copper_nugget": "Copper Nugget",
+  "item.recraft.copper_plating": "Copper Plate",
   "item.recraft.copper_pickaxe": "Copper Pickaxe",
   "item.recraft.copper_axe": "Copper Axe",
   "item.recraft.copper_shovel": "Copper Shovel",
@@ -288,20 +289,20 @@
 
   "item.recraft.copper_gold_mixed_ingot": "Copper Gold Mixed Ingot",
   "item.recraft.mixed_raw_copper_gold": "Mixed Raw Copper Gold",
-  "item.recraft.rose_gold_ingot": "Rose Gold Ingot",
-  "item.recraft.rose_gold_nugget": "Rose Gold Nugget",
-  "item.recraft.rose_gold_pickaxe": "Rose Gold Pickaxe",
-  "item.recraft.rose_gold_axe": "Rose Gold Axe",
-  "item.recraft.rose_gold_shovel": "Rose Gold Shovel",
-  "item.recraft.rose_gold_hoe": "Rose Gold Hoe",
-  "item.recraft.rose_gold_sword": "Rose Gold Sword",
-  "item.recraft.rose_gold_helmet": "Rose Gold Helmet",
-  "item.recraft.rose_gold_chestplate": "Rose Gold Chestplate",
-  "item.recraft.rose_gold_leggings": "Rose Gold Leggings",
-  "item.recraft.rose_gold_boots": "Rose Gold Boots",
-  "item.recraft.rose_gold_horse_armor": "Rose Gold Horse Armor",
+  "item.recraft.rose_gold_ingot": "Copper Plated Ingot",
+  "item.recraft.rose_gold_nugget": "Copper Plated Nugget",
+  "item.recraft.rose_gold_pickaxe": "Copper Plated Pickaxe",
+  "item.recraft.rose_gold_axe": "Copper Plated Axe",
+  "item.recraft.rose_gold_shovel": "Copper Plated Shovel",
+  "item.recraft.rose_gold_hoe": "Copper Plated Hoe",
+  "item.recraft.rose_gold_sword": "Copper Plated Sword",
+  "item.recraft.rose_gold_helmet": "Copper Plated Helmet",
+  "item.recraft.rose_gold_chestplate": "Copper Plated Chestplate",
+  "item.recraft.rose_gold_leggings": "Copper Plated Leggings",
+  "item.recraft.rose_gold_boots": "Copper Plated Boots",
+  "item.recraft.rose_gold_horse_armor": "Copper Plated Horse Armor",
 
-  "block.recraft.rose_gold_block": "Rose Gold Block",
+  "block.recraft.rose_gold_block": "Copper Plated Block",
 
 
 
@@ -325,7 +326,7 @@
 
 
 
-  "block.recraft.bamboo_stack": "Bamboo Stack",
+  "block.recraft.bamboo_stack": "Bamboo Bundle",
   "block.recraft.bamboo_stairs": "Bamboo Stairs",
   "block.recraft.bamboo_slab": "Bamboo Slabs",
   "block.recraft.bamboo_planks": "Bamboo Planks",
@@ -343,7 +344,7 @@
   "block.recraft.bamboo_sign": "Bamboo Sign",
   "block.recraft.bamboo_raft": "Bamboo Raft",
 
-  "block.recraft.dried_bamboo_stack": "Dried Bamboo Stack",
+  "block.recraft.dried_bamboo_stack": "Dried Bamboo Bundle",
   "block.recraft.dried_bamboo_stairs": "Dried Bamboo Stairs",
   "block.recraft.dried_bamboo_slab": "Dried Bamboo Slabs",
   "block.recraft.dried_bamboo_planks": "Dried Bamboo Planks",

@@ -81,6 +81,8 @@ public class ModItems{
         //--- Copper Items ---//
     public static final Item COPPER_NUGGET = registerItem("copper_nugget",
             new Item(new FabricItemSettings().group(ModItemGroups.RECRAFT)));
+    public static final Item COPPER_PLATING = registerItem("copper_plating",
+            new Item(new FabricItemSettings().group(ModItemGroups.RECRAFT)));
 
     public static final Item COPPER_PICKAXE = registerItem("copper_pickaxe",
             new ModPickaxeItem(ModToolMaterial.COPPER, 2, -2.8f,
@@ -117,7 +119,7 @@ public class ModItems{
 
 
 
-        //--- Rose Gold Items ---//
+        //--- Copper Plated Items ---//
     public static final Item MIXED_RAW_COPPER_GOLD = registerItem("mixed_raw_copper_gold",
             new Item(new FabricItemSettings().group(ModItemGroups.RECRAFT)));
 

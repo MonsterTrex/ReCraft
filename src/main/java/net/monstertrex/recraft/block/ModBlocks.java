@@ -72,8 +72,8 @@ public class ModBlocks {
 
     //--- Bamboo Blocks ---//
 
-    public static final Block BAMBOO_STACK = registerBlock("bamboo_stack", new Block(FabricBlockSettings
-            .copy(Blocks.OAK_PLANKS)), ModItemGroups.RECRAFT);
+    public static final Block BAMBOO_STACK = registerBlock("bamboo_stack", new PillarBlock(FabricBlockSettings
+            .copy(Blocks.OAK_LOG)), ModItemGroups.RECRAFT);
 
     public static final Block BAMBOO_STAIRS = registerBlock("bamboo_stairs", new ModStairsBlock
             (ModBlocks.BAMBOO_STACK.getDefaultState(), FabricBlockSettings
@@ -128,8 +128,8 @@ public class ModBlocks {
             new SignBlock(FabricBlockSettings.copy(Blocks.OAK_SIGN), ModSignTypes.BAMBOO));
 
 
-    public static final Block DRIED_BAMBOO_STACK = registerBlock("dried_bamboo_stack", new Block(FabricBlockSettings
-            .copy(Blocks.OAK_PLANKS)), ModItemGroups.RECRAFT);
+    public static final Block DRIED_BAMBOO_STACK = registerBlock("dried_bamboo_stack", new PillarBlock(FabricBlockSettings
+            .copy(Blocks.OAK_LOG)), ModItemGroups.RECRAFT);
 
     public static final Block DRIED_BAMBOO_STAIRS = registerBlock("dried_bamboo_stairs", new ModStairsBlock
             (ModBlocks.DRIED_BAMBOO_STACK.getDefaultState(), FabricBlockSettings

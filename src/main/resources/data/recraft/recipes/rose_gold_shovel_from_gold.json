@@ -4,7 +4,7 @@
     "item": "minecraft:golden_shovel"
   },
   "addition": {
-    "item": "minecraft:copper_ingot"
+    "item": "recraft:copper_plating"
   },
   "result": {
     "item": "recraft:rose_gold_shovel"

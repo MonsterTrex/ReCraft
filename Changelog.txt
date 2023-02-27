@@ -62,3 +62,14 @@ Blocks Removed: All black, brown, gray, and light gray light blocks - only white
 
 
 
+// ----- Ver. 0.2.3 for 1.19.2 - Refining -----//
+
+Recipe change: Base bamboo blocks now craft from 2x2 bamboo instead of 3x3, so it can be made without a crafting table and less bamboo farming necessary.
+
+Block adjustments: Bamboo (renamed from stack to bundle) now behaves like logs.
+
+Items added: Copper Plating - used to balance the abundance of copper in vanilla Minecraft. This has replaced all recipes for copper and copper plated (previously called Rose Gold) armor/tools.
+
+Balance Changes: Rebalanced golden food items again by making any cooked meat products require golden ingot rather than nuggets, with some small buffs to those food items so they are improved based on this change. This is so that vegetarian food items don't get completely overwhelmed by meat items by being more efficient.
+
+These changes were made to prepare to separate this mods features/additions into smaller bundled mods for people who only want certain features rather than everything being all-in-one.

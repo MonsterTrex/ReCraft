@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "xxx",
-    "x x"
+    "xx",
+    "xx"
   ],
   "key": {
     "x": {
-      "item": "recraft:copper_plating"
+      "item": "minecraft:copper_ingot"
     }
   },
   "result": {
-    "item": "recraft:copper_helmet",
+    "item": "recraft:copper_plating",
     "count": 1
   }
 }

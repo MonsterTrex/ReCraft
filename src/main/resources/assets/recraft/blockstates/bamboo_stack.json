@@ -1,5 +1,16 @@
 {
   "variants": {
-    "": { "model": "recraft:block/bamboo_stack" }
+    "axis=x": {
+      "model": "recraft:block/bamboo_stack_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "recraft:block/bamboo_stack"
+    },
+    "axis=z": {
+      "model": "recraft:block/bamboo_stack_horizontal",
+      "x": 90
+    }
   }
 }

@@ -12,12 +12,12 @@ public class ModFoodComponents {
 
     public static FoodComponent GOLDEN_BEETROOT = new FoodComponent.Builder()
             .hunger(4).saturationModifier(1.0f)
-            .alwaysEdible().statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 400), 1f)
+            .alwaysEdible().statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 600), 1f)
             .build();
 
     public static FoodComponent GOLDEN_BEETROOT_SOUP = new FoodComponent.Builder()
             .hunger(14).saturationModifier(0.8f)
-            .alwaysEdible().statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 2400), 1f)
+            .alwaysEdible().statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 3000), 1f)
             .build();
 
     public static FoodComponent GOLDEN_BREAD = new FoodComponent.Builder()
@@ -30,41 +30,41 @@ public class ModFoodComponents {
             .build();
 
     public static FoodComponent GOLDEN_COOKED_BEEF = new FoodComponent.Builder()
-            .hunger(10).saturationModifier(0.8f).meat()
+            .hunger(12).saturationModifier(0.8f).meat()
             .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 100), 1f)
             .build();
 
     public static FoodComponent GOLDEN_COOKED_CHICKEN = new FoodComponent.Builder()
-            .hunger(8).saturationModifier(0.6f).meat()
+            .hunger(10).saturationModifier(0.6f).meat()
             .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 100), 1f)
-            .alwaysEdible().statusEffect(new StatusEffectInstance(StatusEffects.SLOW_FALLING, 800), 1f)
+            .alwaysEdible().statusEffect(new StatusEffectInstance(StatusEffects.SLOW_FALLING, 1000), 1f)
             .build();
 
     public static FoodComponent GOLDEN_COOKED_COD = new FoodComponent.Builder()
-            .hunger(6).saturationModifier(0.6f)
-            .alwaysEdible().statusEffect(new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE, 600), 1f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.WATER_BREATHING, 600), 1f)
+            .hunger(7).saturationModifier(0.6f)
+            .alwaysEdible().statusEffect(new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE, 750), 1f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.WATER_BREATHING, 750), 1f)
             .build();
 
     public static FoodComponent GOLDEN_COOKED_MUTTON = new FoodComponent.Builder()
-            .hunger(9).saturationModifier(0.8f).meat()
+            .hunger(10).saturationModifier(0.8f).meat()
             .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 150), 1f)
             .build();
 
     public static FoodComponent GOLDEN_COOKED_PORKCHOP = new FoodComponent.Builder()
-            .hunger(10).saturationModifier(0.8f).meat()
+            .hunger(12).saturationModifier(0.8f).meat()
             .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 100), 1f)
             .build();
 
     public static FoodComponent GOLDEN_COOKED_RABBIT = new FoodComponent.Builder()
-            .hunger(7).saturationModifier(0.6f).meat()
-            .alwaysEdible().statusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 900), 1f)
+            .hunger(8).saturationModifier(0.6f).meat()
+            .alwaysEdible().statusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 1200), 1f)
             .build();
 
     public static FoodComponent GOLDEN_COOKED_SALMON = new FoodComponent.Builder()
-            .hunger(7).saturationModifier(0.8f)
-            .alwaysEdible().statusEffect(new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE, 900), 1f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.WATER_BREATHING, 900), 1f)
+            .hunger(9).saturationModifier(0.8f)
+            .alwaysEdible().statusEffect(new StatusEffectInstance(StatusEffects.DOLPHINS_GRACE, 1200), 1f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.WATER_BREATHING, 1200), 1f)
             .build();
 
     public static FoodComponent GOLDEN_GLOW_BERRIES = new FoodComponent.Builder()

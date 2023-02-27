@@ -3,14 +3,15 @@
 Mod which expands on vanilla features which would add blocks, add variations to balanced gear, food, etc.
 
 Ingot/Ores + Tools/Armor added:
-Copper - Tools/Armor are better overall than stone, but worse than Iron
-Rose Gold - Tools/Armor are more durable than gold, less so over Iron, but do lack some of the speed that gold tools provide, but still faster than Iron. Gold and Copper combined create Rose Gold ingots, where as Gold tools can be upgraded with a smithing table using Copper to create Rose Gold tools/armor, retaining any enchantments already on golden tools.
+Copper - Tools/Armor are better overall than stone, but worse than Iron. Made using copper plating which require 4 copper ingots to craft 1 plating.
+Copper Plated Tools/Armor - Tools/Armor are more durable than gold, less so over Iron, but do lack some of the speed that gold tools provide, but still faster than Iron. Gold and Copper combined create Copper Plated ingots, where as Gold tools can be upgraded with a smithing table using Copper Plating to create Copper Plated tools/armor, retaining any enchantments already on golden tools.
 Steel - Tools/Armor are more durable than iron, less so than diamond and they have additional armor toughness. Steel is made by smelting Iron again - Gives a good middle-ground between iron and diamond tools especially with mods like "TuffDepth", when getting diamonds in caves proves to be a difficult task without the added durability and stats of Steel.
 
 Building Blocks added:
 Charcoal Block - Crafted using charcoal to create a block that can smelt 80 items.
 Fruit/Vegetable Crates - Crafted using wooden slab, sticks and any fruit/vegetable item.
-Bamboo and Dried Bamboo blocks - Crafted using bamboo in a 3x3 workbench.
+Bamboo and Dried Bamboo blocks - Crafted using bamboo in a 2x2 workbench.
+Coloured Glowstone, Redstone Lamps and Sea Lanterns - Crafted with dye and light block.
 Frosted Glass + Panes - Crafted using new item called Glass Dust.
 Stained/Frosted Cracked Glass + Panes - Crafted by smelting any stained glass in furnace.
 Framed Stained/Frosted Glass + Panes - Crafted with iron ingot and glass, with dye applied after the creation of Framed Glass.
