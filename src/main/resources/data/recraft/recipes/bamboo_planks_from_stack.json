@@ -1,17 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "xxx",
-    "xxx",
-    "xxx"
-  ],
-  "key": {
-    "x": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "recraft:bamboo_stack"
     }
-  },
+  ],
   "result": {
     "item": "recraft:bamboo_planks",
-    "count": 9
+    "count": 2
   }
 }

@@ -73,3 +73,13 @@ Items added: Copper Plating - used to balance the abundance of copper in vanilla
 Balance Changes: Rebalanced golden food items again by making any cooked meat products require golden ingot rather than nuggets, with some small buffs to those food items so they are improved based on this change. This is so that vegetarian food items don't get completely overwhelmed by meat items by being more efficient.
 
 These changes were made to prepare to separate this mods features/additions into smaller bundled mods for people who only want certain features rather than everything being all-in-one.
+
+
+
+// ----- Ver. 0.2.4 for 1.19.2 - Vanilla Annoyance Fix and Refining -----//
+
+Deepslate able to be used in a stone cutter to craft deepslate variants. Simply using silk touch causes deepslate to basically be unusable without remining with a regular/fortune pickaxe.
+
+Changed recipes for bamboo blocks to match vanilla versions that will be used in 1.20 update.
+
+Made Steel ore generate more often in the Nether Dimension with bigger veins in the lower y-levels.

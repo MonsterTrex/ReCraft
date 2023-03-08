@@ -10,7 +10,7 @@ Steel - Tools/Armor are more durable than iron, less so than diamond and they ha
 Building Blocks added:
 Charcoal Block - Crafted using charcoal to create a block that can smelt 80 items.
 Fruit/Vegetable Crates - Crafted using wooden slab, sticks and any fruit/vegetable item.
-Bamboo and Dried Bamboo blocks - Crafted using bamboo in a 2x2 workbench.
+Bamboo and Dried Bamboo blocks - Crafted using bamboo in a 3x3 workbench.
 Coloured Glowstone, Redstone Lamps and Sea Lanterns - Crafted with dye and light block.
 Frosted Glass + Panes - Crafted using new item called Glass Dust.
 Stained/Frosted Cracked Glass + Panes - Crafted by smelting any stained glass in furnace.
@@ -40,4 +40,4 @@ Golden Pumpkin Pie - Provides very high hunger replenishment, good saturation an
 Golden Sweet Berries - Provides low hunger replenishment, low saturation and speed.
 
 World Generation:
-Steel - Added steel netherrack generation to the Nether dimension - fairly rare, but you will spot it here and there in small veins. They behave like Gold netherrack blocks, providing some exp and nuggets dropped with regular tools/fortune enchantments.
+Steel - Added steel netherrack generation to the Nether dimension - rare but more abundant near the low y-levels, but you will spot it here and there in small veins. They behave like Gold netherrack blocks, providing some exp and nuggets dropped with regular tools/fortune enchantments.

@@ -18,6 +18,14 @@ public class ModConfiguredFeatures {
 
 
 
+    public static final List<OreFeatureConfig.Target> NETHER_NETHER_STEEL_ORE_BOTTOM = List.of(
+            OreFeatureConfig.createTarget(OreConfiguredFeatures.BASE_STONE_NETHER, ModBlocks.NETHER_STEEL_ORE.getDefaultState()));
+
+    public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> NETHER_STEEL_ORE_BOTTOM = ConfiguredFeatures.register ("nether_steel_ore_bottom",
+            Feature.ORE, new OreFeatureConfig(NETHER_NETHER_STEEL_ORE_BOTTOM, 10));
+
+
+
 
 
 

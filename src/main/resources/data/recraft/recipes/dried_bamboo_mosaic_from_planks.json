@@ -1,17 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "xxx",
-    "xxx",
-    "xxx"
+    "x",
+    "x"
   ],
   "key": {
     "x": {
-      "item": "recraft:dried_bamboo_planks"
+      "item": "recraft:dried_bamboo_plank_slab"
     }
   },
   "result": {
     "item": "recraft:dried_bamboo_mosaic",
-    "count": 9
+    "count": 1
   }
 }
