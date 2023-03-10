@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "framed stained glass pane dye",
+  "group": "framed_stained_glass_pane_dye",
   "pattern": [
     "xxx",
     "xyx",

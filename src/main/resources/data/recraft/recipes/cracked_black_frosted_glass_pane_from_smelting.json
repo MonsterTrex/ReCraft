@@ -1,6 +1,6 @@
 {
   "type": "minecraft:smelting",
-  "group": "frosted glass pane smelting",
+  "group": "frosted_glass_pane_smelting",
   "ingredient": {
     "item": "recraft:black_frosted_glass_pane"
   },

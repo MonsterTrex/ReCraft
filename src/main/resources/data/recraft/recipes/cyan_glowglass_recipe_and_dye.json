@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "glowglass recipe dye",
+  "group": "glowglass_recipe_dye",
   "pattern": [
     "xyx",
     "yzy",

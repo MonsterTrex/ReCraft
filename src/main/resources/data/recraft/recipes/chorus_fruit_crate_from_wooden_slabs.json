@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "chorus_fruit_crate",
+  "pattern": [
+    "yyy",
+    "yyy",
+    "zxz"
+  ],
+  "key": {
+    "x": {
+      "tag": "minecraft:wooden_slab"
+    },
+    "y": {
+      "item": "minecraft:chorus_fruit"
+    },
+    "z": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "recraft:chorus_fruit_crate",
+    "count": 1
+  }
+}

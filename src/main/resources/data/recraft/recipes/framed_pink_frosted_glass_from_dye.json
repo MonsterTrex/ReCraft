@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "framed frosted glass block dye",
+  "group": "framed_frosted_glass_block_dye",
   "pattern": [
     "xxx",
     "xyx",

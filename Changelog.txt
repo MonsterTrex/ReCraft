@@ -83,3 +83,12 @@ Deepslate able to be used in a stone cutter to craft deepslate variants. Simply 
 Changed recipes for bamboo blocks to match vanilla versions that will be used in 1.20 update in preperation for further block additions in version 0.3.
 
 Made Steel ore generate more often in the Nether Dimension with bigger veins in the lower y-levels near Ancient Debris.
+
+
+
+// ----- Ver. 0.2.5 for 1.19.2 - Crashing Code Fix -----//
+
+Fixed hundreds of lines of code which were causing some interference
+
+
+

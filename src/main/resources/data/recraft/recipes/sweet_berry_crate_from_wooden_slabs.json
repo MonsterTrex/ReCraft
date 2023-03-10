@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "sweet_berry_crate",
+  "pattern": [
+    "yyy",
+    "yyy",
+    "zxz"
+  ],
+  "key": {
+    "x": {
+      "tag": "minecraft:wooden_slab"
+    },
+    "y": {
+      "item": "minecraft:sweet_berries"
+    },
+    "z": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "recraft:sweet_berry_crate",
+    "count": 1
+  }
+}

@@ -1,6 +1,6 @@
 {
   "type": "minecraft:smelting",
-  "group": "frosted glass block smelting",
+  "group": "frosted_glass_block_smelting",
   "ingredient": {
     "item": "recraft:magenta_frosted_glass"
   },

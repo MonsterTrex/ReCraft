@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "beetroot_crate",
+  "pattern": [
+    "yyy",
+    "yyy",
+    "zxz"
+  ],
+  "key": {
+    "x": {
+      "tag": "minecraft:wooden_slab"
+    },
+    "y": {
+      "item": "minecraft:beetroot"
+    },
+    "z": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "recraft:beetroot_crate",
+    "count": 1
+  }
+}

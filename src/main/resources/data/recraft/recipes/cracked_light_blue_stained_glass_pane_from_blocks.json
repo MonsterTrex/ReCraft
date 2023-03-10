@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "stained glass pane",
+  "group": "stained_glass_pane",
   "pattern": [
     "xxx",
     "xxx"

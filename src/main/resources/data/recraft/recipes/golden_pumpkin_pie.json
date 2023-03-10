@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "golden veg food",
+  "group": "golden_veg_food",
   "pattern": [
     "xxx",
     "xyx",

@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "recraft:block/brown_sea_lantern"
-  }
-}

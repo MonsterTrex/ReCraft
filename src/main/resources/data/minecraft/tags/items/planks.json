@@ -3,7 +3,9 @@
   "values": [
     "recraft:bamboo_stack",
     "recraft:bamboo_planks",
+    "recraft:bamboo_mosaic",
     "recraft:dried_bamboo_stack",
-    "recraft:dried_bamboo_planks"
+    "recraft:dried_bamboo_planks",
+    "recraft:dried_bamboo_mosaic"
   ]
 }

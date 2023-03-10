@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "carrot_crate",
+  "pattern": [
+    "yyy",
+    "yyy",
+    "zxz"
+  ],
+  "key": {
+    "x": {
+      "tag": "minecraft:wooden_slab"
+    },
+    "y": {
+      "item": "minecraft:carrot"
+    },
+    "z": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "recraft:carrot_crate",
+    "count": 1
+  }
+}

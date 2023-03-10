@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "stained glass pane dye",
+  "group": "stained_glass_pane_dye",
   "pattern": [
     "xxx",
     "xyx",
@@ -8,7 +8,7 @@
   ],
   "key": {
     "x": {
-      "item": "recraft:cracked_stained_glass_pane"
+      "item": "recraft:cracked_glass"
     },
     "y": {
       "item": "minecraft:yellow_dye"

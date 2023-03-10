@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "stained glass block dye",
+  "group": "stained_glass_block_dye",
   "pattern": [
     "xxx",
     "xyx",
@@ -8,7 +8,7 @@
   ],
   "key": {
     "x": {
-      "item": "recraft:cracked_stained_glass"
+      "item": "recraft:cracked_glass"
     },
     "y": {
       "item": "minecraft:pink_dye"

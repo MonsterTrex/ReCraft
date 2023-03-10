@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "recraft:bamboo_stairs",
+    "recraft:bamboo_plank_stairs",
+    "recraft:bamboo_mosaic_stairs",
+    "recraft:dried_bamboo_stairs",
+    "recraft:dried_bamboo_plank_stairs",
+    "recraft:dried_bamboo_mosaic_stairs"
+  ]
+}
