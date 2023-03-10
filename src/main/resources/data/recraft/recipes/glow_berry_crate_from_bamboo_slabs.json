@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "glow berry crate",
   "pattern": [
     "yyy",
     "yyy",

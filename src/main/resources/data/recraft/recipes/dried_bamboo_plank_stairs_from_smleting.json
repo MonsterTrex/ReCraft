@@ -1,5 +1,6 @@
 {
   "type": "minecraft:smelting",
+  "group": "wooden_stairs",
   "ingredient": {
     "item": "recraft:bamboo_plank_stairs"
   },

@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "group": "glowglass block dye",
   "ingredients": [
     {
       "item": "recraft:glowglass"

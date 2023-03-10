@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "frosted glass pane dye",
   "pattern": [
     "xxx",
     "xyx",

@@ -1,5 +1,6 @@
 {
   "type": "minecraft:smelting",
+  "group": "wooden_pressure_plate",
   "ingredient": {
     "item": "recraft:bamboo_pressure_plate"
   },

@@ -1,5 +1,6 @@
 {
   "type": "minecraft:smelting",
+  "group": "frosted glass block smelting",
   "ingredient": {
     "item": "recraft:blue_frosted_glass"
   },

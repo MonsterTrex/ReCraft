@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "group": "redstone lamp block dye",
   "ingredients": [
     {
       "item": "minecraft:redstone_lamp"

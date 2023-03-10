@@ -1,5 +1,6 @@
 {
   "type": "minecraft:smelting",
+  "group": "planks",
   "ingredient": {
     "item": "recraft:bamboo_planks"
   },

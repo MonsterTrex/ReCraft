@@ -1,5 +1,6 @@
 {
   "type": "minecraft:smelting",
+  "group": "stained glass pane smelting",
   "ingredient": {
     "item": "minecraft:green_stained_glass_pane"
   },

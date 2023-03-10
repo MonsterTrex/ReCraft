@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "wooden_slab",
+  "ingredient": {
+    "item": "recraft:bamboo_slab"
+  },
+  "result": "recraft:dried_bamboo_slab",
+  "experience": 0.1,
+  "cookingtime": 200
+}

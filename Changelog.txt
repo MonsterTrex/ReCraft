@@ -80,6 +80,6 @@ These changes were made to prepare to separate this mods features/additions into
 
 Deepslate able to be used in a stone cutter to craft deepslate variants. Simply using silk touch causes deepslate to basically be unusable without remining with a regular/fortune pickaxe.
 
-Changed recipes for bamboo blocks to match vanilla versions that will be used in 1.20 update.
+Changed recipes for bamboo blocks to match vanilla versions that will be used in 1.20 update in preperation for further block additions in version 0.3.
 
-Made Steel ore generate more often in the Nether Dimension with bigger veins in the lower y-levels.
+Made Steel ore generate more often in the Nether Dimension with bigger veins in the lower y-levels near Ancient Debris.

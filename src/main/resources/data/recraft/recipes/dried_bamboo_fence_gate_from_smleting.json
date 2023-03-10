@@ -1,5 +1,6 @@
 {
   "type": "minecraft:smelting",
+  "group": "wooden_fence_gate",
   "ingredient": {
     "item": "recraft:bamboo_fence_gate"
   },

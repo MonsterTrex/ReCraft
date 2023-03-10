@@ -7,7 +7,7 @@ import net.minecraft.item.FoodComponent;
 public class ModFoodComponents {
 
     public static FoodComponent GOLDEN_BAKED_POTATO = new FoodComponent.Builder()
-            .hunger(8).saturationModifier(1.4f)
+            .hunger(8).saturationModifier(1.25f)
             .build();
 
     public static FoodComponent GOLDEN_BEETROOT = new FoodComponent.Builder()
@@ -16,12 +16,12 @@ public class ModFoodComponents {
             .build();
 
     public static FoodComponent GOLDEN_BEETROOT_SOUP = new FoodComponent.Builder()
-            .hunger(14).saturationModifier(0.8f)
+            .hunger(14).saturationModifier(0.75f)
             .alwaysEdible().statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 3000), 1f)
             .build();
 
     public static FoodComponent GOLDEN_BREAD = new FoodComponent.Builder()
-            .hunger(8).saturationModifier(1.4f)
+            .hunger(8).saturationModifier(1.25f)
             .build();
 
     public static FoodComponent GOLDEN_CHORUS_FRUIT = new FoodComponent.Builder()
@@ -30,7 +30,7 @@ public class ModFoodComponents {
             .build();
 
     public static FoodComponent GOLDEN_COOKED_BEEF = new FoodComponent.Builder()
-            .hunger(12).saturationModifier(0.8f).meat()
+            .hunger(12).saturationModifier(0.75f).meat()
             .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 100), 1f)
             .build();
 
@@ -47,12 +47,12 @@ public class ModFoodComponents {
             .build();
 
     public static FoodComponent GOLDEN_COOKED_MUTTON = new FoodComponent.Builder()
-            .hunger(10).saturationModifier(0.8f).meat()
+            .hunger(10).saturationModifier(0.75f).meat()
             .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 150), 1f)
             .build();
 
     public static FoodComponent GOLDEN_COOKED_PORKCHOP = new FoodComponent.Builder()
-            .hunger(12).saturationModifier(0.8f).meat()
+            .hunger(12).saturationModifier(0.75f).meat()
             .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 100), 1f)
             .build();
 

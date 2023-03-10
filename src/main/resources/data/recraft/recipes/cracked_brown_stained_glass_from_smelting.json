@@ -1,5 +1,6 @@
 {
   "type": "minecraft:smelting",
+  "group": "stained glass block smelting",
   "ingredient": {
     "item": "minecraft:brown_stained_glass"
   },

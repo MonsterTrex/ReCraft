@@ -1,5 +1,6 @@
 {
   "type": "minecraft:smelting",
+  "group": "wooden_door",
   "ingredient": {
     "item": "recraft:bamboo_door"
   },

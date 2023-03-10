@@ -1,5 +1,6 @@
 {
   "type": "minecraft:smelting",
+  "group": "wooden_sign",
   "ingredient": {
     "item": "recraft:bamboo_sign"
   },
