@@ -92,3 +92,8 @@ Fixed hundreds of lines of code which were causing some interference
 
 
 
+// ----- Ver. 0.2.6 for 1.19.2 - File Size Inflation Fix -----//
+
+Fixed the growing size of the mod file dramatically through duplicate files, back to what it used to be.
+
+
